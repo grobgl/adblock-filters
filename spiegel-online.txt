@@ -1,0 +1,20 @@
+! center content
+spiegel.de###wrapper:style(margin:0)
+spiegel.de###wrapper-shadow:style(margin: 5px auto)
+
+! hide sidebar ad
+spiegel.de###spColumnAd
+spiegel.de###home.centerpage:style(cursor:default !important)
+
+! hide ads
+spiegel.de##.adition:has(.innerwrapad)
+
+! remove tv and abo links
+spiegel.de##.meta-nav > li:has(a[href="http://tvprogramm.spiegel.de/"])
+spiegel.de##.meta-nav > li:has(a[href="http://tvprogramm.spiegel.de/"])
+spiegel.de##.meta-nav > li:has(a[href^="http://abo.spiegel.de/"])
+spiegel.de##.meta-nav > li > a[href^="http://boersen.manager-magazin.de/mm/kurse_einzelkurs_uebersicht.htn"] + span
+
+! hide bento
+spiegel.de##.module-box.bento
+spiegel.de##.teaser:has(.article-icon.bento)

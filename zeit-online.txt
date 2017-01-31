@@ -1,0 +1,16 @@
+! remove zett teasers
+zeit.de##.teaser-small:has(.teaser-small__kicker-logo--zett)
+! remove zett section
+zeit.de##.cp-region.cp-region--parquet:has(.parquet-meta__logo.parquet-meta__logo--zett)
+! remove shop section
+zeit.de##.cp-region:has(.cp-area--shop)
+! remove job section
+zeit.de##.jobbox
+! remove print ad from sidebar
+zeit.de##.print-box
+! remove games section
+zeit.de##.cp-region:has(div[data-ct-context="parquet-spiele"])
+! remove ads in dropdowns
+zeit.de##.nav__dropdown-item--has-label[data-label="Anzeige"]
+! remove print kiosk
+zeit.de##.cp-region:has(.cp-area--printkiosk)

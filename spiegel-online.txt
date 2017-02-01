@@ -19,3 +19,6 @@ spiegel.de##.meta-nav > li > a[href^="http://boersen.manager-magazin.de/mm/kurse
 ! hide bento
 spiegel.de##.module-box.bento
 spiegel.de##.teaser:has(.article-icon.bento)
+
+! hide print reference in articles
+spiegel.de##.magazin-box-inner

@@ -16,4 +16,4 @@ zeit.de##.nav__ressorts-item--has-label[data-label="Anzeige"]
 ! remove print kiosk
 zeit.de##.cp-region:has(.cp-area--printkiosk)
 ! remove ads below articles
-zeit.de/*/**##.nextread-advertisement
+zeit.de##.nextread-advertisement

@@ -22,3 +22,7 @@ spiegel.de##.teaser:has(.article-icon.bento)
 
 ! hide print reference in articles
 spiegel.de##.magazin-box-inner
+
+! clean up footer
+spiegel.de##.spiegel-group
+spiegel.de##.js-slider-footer

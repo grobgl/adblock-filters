@@ -26,3 +26,10 @@ spiegel.de##.magazin-box-inner
 ! clean up footer
 spiegel.de##.spiegel-group
 spiegel.de##.js-slider-footer
+
+! disable inline ad scripts
+spiegel.de##script:contains(ADI)
+spiegel.de##script:contains(adb)
+
+! disable article overscroll script
+spiegel.de##script:contains(page-overscroll)

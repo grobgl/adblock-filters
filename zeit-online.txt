@@ -12,5 +12,6 @@ zeit.de##.print-box
 zeit.de##.cp-region:has(div[data-ct-context="parquet-spiele"])
 ! remove ads in dropdowns
 zeit.de##.nav__dropdown-item--has-label[data-label="Anzeige"]
+zeit.de##.nav__ressorts-item--has-label[data-label="Anzeige"]
 ! remove print kiosk
 zeit.de##.cp-region:has(.cp-area--printkiosk)

@@ -33,3 +33,6 @@ spiegel.de##.js-slider-footer
 ! disable inline ad scripts (firefox only)
 spiegel.de##script:contains(ADI)
 spiegel.de##script:contains(adb)
+
+! remove video teasers from homepage
+spiegel.de##.teaser:has(a[href^=\/video])

@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Fix SpOn Plus
-// @namespace    http://tampermonkey.net/
+// @namespace    http://github.com/grobgl
 // @version      0.1
-// @description  try to take over the world!
+// @description  Unblock Spiegel Plus articles
 // @author       You
 // @match        http://www.spiegel.de/*/**
 // @grant        none

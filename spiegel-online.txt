@@ -8,7 +8,6 @@ spiegel.de###spOasTop:style(width: auto)
 ! hide sidebar ad
 spiegel.de###spColumnAd
 spiegel.de###home.centerpage:style(cursor:default !important)
-spiegel.de##body:style(background-color: rgb(242, 241, 236) !important)
 
 ! hide ads
 spiegel.de##.adition:has(.innerwrapad)

@@ -38,3 +38,5 @@ spiegel.de##.js-slider-footer
 spiegel.de##script:contains(ADI)
 spiegel.de##script:contains(adb)
 
+! block partner links in footer
+spiegel.de##.footer-partner.clearfix

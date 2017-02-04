@@ -26,7 +26,7 @@ spiegel.de##.asset-box:has(:scope > .asset-title > a[title="Auf bento"])
 spiegel.de##.spRessortTeaserBoxCompact.bento
 
 ! mobile: hide bento, ads, quizzes, print teaser, book charts teaser
-spiegel.de##.asset-box
+! spiegel.de##.asset-box
 
 ! remove viral video teasers from homepage
 spiegel.de##.teaser:has(:scope > .clearfix > h2 > a[title^=\Viral])

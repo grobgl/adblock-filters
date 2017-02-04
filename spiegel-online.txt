@@ -22,6 +22,10 @@ spiegel.de##.meta-nav > li > a[href^="http://boersen.manager-magazin.de/mm/kurse
 ! hide bento
 spiegel.de##.module-box.bento
 spiegel.de##.teaser:has(.article-icon.bento)
+spiegel.de##.asset-box:has(:scope > .asset-title > a[title="Auf bento"])
+
+! remove viral video teasers from homepage
+spiegel.de##.teaser:has(:scope > .clearfix > h2 > a[title^=\Viral])
 
 ! hide print reference in articles
 spiegel.de##.magazin-box-inner
@@ -34,5 +38,3 @@ spiegel.de##.js-slider-footer
 spiegel.de##script:contains(ADI)
 spiegel.de##script:contains(adb)
 
-! remove video teasers from homepage
-spiegel.de##.teaser:has(a[href^=\/video])

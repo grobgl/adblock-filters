@@ -28,6 +28,9 @@ spiegel.de##.spRessortTeaserBoxCompact.bento
 ! mobile: hide bento, ads, quizzes, print teaser, book charts teaser
 ! spiegel.de##.asset-box
 
+! hide print ad from sidebar
+spiegel.de##.module-box.magazin-box
+
 ! remove viral video teasers from homepage
 spiegel.de##.teaser:has(:scope > .clearfix > h2 > a[title^=\Viral])
 spiegel.de##.ressort-teaser-box-top:has(:scope > h2 > a[title^=\Viral])

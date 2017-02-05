@@ -30,6 +30,7 @@ spiegel.de##.spRessortTeaserBoxCompact.bento
 
 ! remove viral video teasers from homepage
 spiegel.de##.teaser:has(:scope > .clearfix > h2 > a[title^=\Viral])
+spiegel.de##.ressort-teaser-box-top:has(:scope > h2 > a[title^=\Viral])
 
 ! hide print reference in articles
 spiegel.de##.magazin-box-inner

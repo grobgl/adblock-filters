@@ -8,8 +8,10 @@ zeit.de##.cp-region:has(.cp-area--shop)
 zeit.de##.jobbox
 ! remove print ad from sidebar
 zeit.de##.print-box
-! remove internal ads (e.g. job newsletter)
+! remove internal ad article teasers (e.g. job newsletter)
 zeit.de##.teaser-small--inhouse
+! remove ad article teasers
+zeit.de##.teaser-small--ad
 ! remove games section
 zeit.de##.cp-region:has(div[data-ct-context="parquet-spiele"])
 ! remove ads in dropdowns

@@ -39,6 +39,9 @@ spiegel.de##.asset-box:has(:scope > .spHeftBox)
 spiegel.de##.teaser:has(:scope > .clearfix > h2 > a[title^=\Viral])
 spiegel.de##.ressort-teaser-box-top:has(:scope > h2 > a[title^=\Viral])
 
+! hide content partner section
+spiegel.de##div:has(:scope > .module-box > .teaser-box-header > .anz)
+
 ! hide print reference in articles
 spiegel.de##.magazin-box-inner
 

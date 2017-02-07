@@ -30,7 +30,7 @@ spiegel.de##.asset-box:has(:scope > .spezialbalken > div[id^=bento])
 spiegel.de##.article-icon.bento
 spiegel.de##.article-icon.bento + span
 spiegel.de##.article-icon.bento + span + br
-spiegel.de##.article-icon.bento + span + br + a:style(margin: -.5em)
+spiegel.de##.article-icon.bento + span + br + a:style(margin-left: -.5em)
 
 ! mobile: hide, ads, quizzes, book charts teaser mobile
 spiegel.de##.asset-box:has(.adition#logobox)

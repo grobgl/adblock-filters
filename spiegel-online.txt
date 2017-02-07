@@ -26,6 +26,12 @@ spiegel.de##.asset-box:has(:scope > .asset-title > a[title="Auf bento"])
 spiegel.de##.spRessortTeaserBoxCompact.bento
 spiegel.de##.asset-box:has(:scope > .spezialbalken > div[id^=bento])
 
+! hide bento from schlagzeilen section
+spiegel.de##.article-icon.bento
+spiegel.de##.article-icon.bento + span
+spiegel.de##.article-icon.bento + span + br
+spiegel.de##.article-icon.bento + span + br + a:style(margin: -.5em)
+
 ! mobile: hide, ads, quizzes, book charts teaser mobile
 spiegel.de##.asset-box:has(.adition#logobox)
 spiegel.de##.asset-box:has(:scope > div > .spezialbalken > .spezialbalken-innen > span > .spezialbalken-thumb > a > img[alt=Sudoku])

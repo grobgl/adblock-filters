@@ -23,3 +23,4 @@ zeit.de##.cp-region:has(.cp-area--printkiosk)
 zeit.de##.nextread-advertisement
 ! remove print reference in articles
 zeit.de##.article__media:has(:scope > .article__media-container > a[title^="DIE ZEIT"])
+zeit.de##.article__media:has(:scope > .article__media-container > img[data-alt^="DIE ZEIT"])

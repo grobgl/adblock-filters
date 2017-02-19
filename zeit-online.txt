@@ -24,3 +24,8 @@ zeit.de##.nextread-advertisement
 ! remove print reference in articles
 zeit.de##.article__media:has(:scope > .article__media-container > a[title^="DIE ZEIT"])
 zeit.de##.article__media:has(:scope > .article__media-container > img[data-alt^="DIE ZEIT"])
+! get rid of navbars i don't use
+zeit.de##.nav__classifieds
+zeit.de##nav__services
+zeit.de##nav__login
+zeit.de##.header__brand:style(top:2rem !important)

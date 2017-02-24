@@ -1,9 +1,9 @@
 ! center content
 spiegel.de###wrapper:style(margin:0 !important)
 spiegel.de###wrapper-shadow:style(margin: 5px auto !important)
-spiegel.de###wrapper:style(max-width: 100%)
+spiegel.de###wrapper:style(max-width: 100% !important)
 spiegel.de###wrapper:style(min-width: auto !important)
-spiegel.de###spOasTop:style(width: auto)
+spiegel.de###spOasTop:style(width: auto !important)
 
 ! hide sidebar ad
 spiegel.de###spColumnAd

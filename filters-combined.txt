@@ -1,4 +1,3 @@
-about:reader##.body.serif:style(font-family:Bookerly,serif !important)
 ! center content
 spiegel.de###wrapper:style(margin:0 !important)
 spiegel.de###wrapper-shadow:style(margin: 5px auto !important)

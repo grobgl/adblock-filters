@@ -1,1 +1,0 @@
-about:reader##.body.serif:style(font-family:Bookerly,serif !important)

@@ -1,94 +1,54 @@
 getpocket.com##.item_type_spoc
-! center content
 spiegel.de###wrapper:style(margin:0 !important)
 spiegel.de###wrapper-shadow:style(margin: 5px auto !important)
 spiegel.de###wrapper:style(max-width: 100% !important)
 spiegel.de###wrapper:style(min-width: auto !important)
 spiegel.de###spOasTop:style(width: auto !important)
-
-! hide sidebar ad
 spiegel.de###spColumnAd
 spiegel.de###home.centerpage:style(cursor:default !important)
-
-! hide ads
 spiegel.de##.adition:has(.innerwrapad)
-
-! remove tv and abo links
 spiegel.de##.meta-nav > li:has(a[href="http://tvprogramm.spiegel.de/"])
 spiegel.de##.meta-nav > li:has(a[href="http://tvprogramm.spiegel.de/"])
 spiegel.de##.meta-nav > li:has(a[href^="http://abo.spiegel.de/"])
 spiegel.de##.meta-nav > li > a[href^="http://boersen.manager-magazin.de/mm/kurse_einzelkurs_uebersicht.htn"] + span
-
-! hide bento
 spiegel.de##.module-box.bento
 spiegel.de##.teaser:has(.article-icon.bento)
 spiegel.de##.spTopThema:has(.article-icon.bento)
 spiegel.de##.asset-box:has(:scope > .asset-title > a[title="Auf bento"])
 spiegel.de##.spRessortTeaserBoxCompact.bento
 spiegel.de##.asset-box:has(:scope > .spezialbalken > div[id^=bento])
-
-! hide bento from schlagzeilen section
 spiegel.de##.article-icon.bento
 spiegel.de##.article-icon.bento + span
 spiegel.de##.article-icon.bento + span + br
 spiegel.de##.article-icon.bento + span + br + a:style(margin-left: -.5em)
-
-! mobile: hide, ads, quizzes, book charts teaser mobile
 spiegel.de##.asset-box:has(.adition#logobox)
 spiegel.de##.asset-box:has(:scope > div > .spezialbalken > .spezialbalken-innen > span > .spezialbalken-thumb > a > img[alt=Sudoku])
 spiegel.de##.asset-box:has(:scope > div > .spezialbalken > .spezialbalken-innen > img[src$="bestseller_orange.png"])
-
-! hide print ad from sidebar
 spiegel.de##.module-box.magazin-box
 spiegel.de##.asset-box:has(:scope > .spHeftBox)
-
-! remove viral video teasers from homepage
 spiegel.de##.teaser:has(:scope > .clearfix > h2 > a[title^=\Viral])
 spiegel.de##.ressort-teaser-box-top:has(:scope > h2 > a[title^=\Viral])
-
-! hide content partner section
 spiegel.de##div:has(:scope > .module-box > .teaser-box-header > .anz)
-
-! hide print reference in articles
 spiegel.de##.magazin-box-inner
-
-! clean up footer
 spiegel.de##.spiegel-group
 spiegel.de##.js-slider-footer
-
-! disable inline ad scripts (firefox only)
 spiegel.de##script:contains(ADI)
 spiegel.de##script:contains(adb)
-
-! block partner links in footer
 spiegel.de##.footer-partner.clearfix
-! remove zett teasers
 zeit.de##.teaser-small:has(.teaser-small__kicker-logo--zett)
-! remove zett section
 zeit.de##.cp-region.cp-region--parquet:has(.parquet-meta__logo.parquet-meta__logo--zett)
-! remove shop section
 zeit.de##.cp-region:has(.cp-area--shop)
-! remove job section
 zeit.de##.jobbox
-! remove print ad from sidebar
 zeit.de##.print-box
-! remove internal ad article teasers (e.g. job newsletter)
 zeit.de##.teaser-small--inhouse
-! remove ad article teasers
 zeit.de##.teaser-small--ad
-! remove games section
 zeit.de##.cp-region:has(div[data-ct-context="parquet-spiele"])
-! remove ads in dropdowns
 zeit.de##.nav__dropdown-item--has-label[data-label="Anzeige"]
 zeit.de##.nav__ressorts-item--has-label[data-label="Anzeige"]
-! remove print kiosk
 zeit.de##.cp-region:has(.cp-area--printkiosk)
-! remove ads below articles
 zeit.de##.nextread-advertisement
-! remove print reference in articles
 zeit.de##.article__media:has(:scope > .article__media-container > a[title^="DIE ZEIT"])
 zeit.de##.article__media:has(:scope > .article__media-container > img[data-alt^="DIE ZEIT"])
-! get rid of navbars i don't use
 zeit.de##.nav__classifieds
 zeit.de##.nav__services
 zeit.de##.nav__login

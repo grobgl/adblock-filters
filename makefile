@@ -1,5 +1,5 @@
 all:
-	cat filters/*.txt | sed -e 's/latin1/utf8/' > filters-combined.txt
+	cat filters/*.txt | sed -e '/^!.*/d;/^\s*$$/d' > filters-combined.txt
 clean:
 	rm filters-combined.txt
 

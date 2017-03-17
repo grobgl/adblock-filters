@@ -1,3 +1,4 @@
+getpocket.com##.item_type_spoc
 ! center content
 spiegel.de###wrapper:style(margin:0 !important)
 spiegel.de###wrapper-shadow:style(margin: 5px auto !important)

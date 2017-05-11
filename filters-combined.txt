@@ -39,16 +39,18 @@ zeit.de##.teaser-small:has(.teaser-small__kicker-logo--zett)
 zeit.de##.cp-region.cp-region--parquet:has(.parquet-meta__logo.parquet-meta__logo--zett)
 zeit.de##.cp-region:has(.cp-area--shop)
 zeit.de##.jobbox
-zeit.de##.print-box
 zeit.de##.teaser-small--inhouse
-zeit.de##.teaser-small--ad
-zeit.de##.cp-region:has(div[data-ct-context="parquet-spiele"])
-zeit.de##.nav__dropdown-item--has-label[data-label="Anzeige"]
-zeit.de##.nav__ressorts-item--has-label[data-label="Anzeige"]
+zeit.de##article[data-zplus="zplus"]
+zeit.de##.cp-region.cp-region--parquet:has(:scope>.cp-area--zplus-parquet)
+zeit.de##.print-box
 zeit.de##.cp-region:has(.cp-area--printkiosk)
-zeit.de##.nextread-advertisement
 zeit.de##.article__media:has(:scope > .article__media-container > a[title^="DIE ZEIT"])
 zeit.de##.article__media:has(:scope > .article__media-container > img[data-alt^="DIE ZEIT"])
+zeit.de##.teaser-small--ad
+zeit.de##.nav__dropdown-item--has-label[data-label="Anzeige"]
+zeit.de##.nav__ressorts-item--has-label[data-label="Anzeige"]
+zeit.de##.nextread-advertisement
+zeit.de##.cp-region:has(div[data-ct-context="parquet-spiele"])
 zeit.de##.nav__classifieds
 zeit.de##.nav__services
 zeit.de##.nav__login

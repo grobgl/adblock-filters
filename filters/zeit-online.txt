@@ -1,31 +1,79 @@
+!!!!!!!!!!!!!!!!!!!!!!
+!!!!! BLOCK ZETT !!!!!
+!!!!!!!!!!!!!!!!!!!!!!
+
 ! remove zett teasers
 zeit.de##.teaser-small:has(.teaser-small__kicker-logo--zett)
+
 ! remove zett section
 zeit.de##.cp-region.cp-region--parquet:has(.parquet-meta__logo.parquet-meta__logo--zett)
+
 ! remove shop section
 zeit.de##.cp-region:has(.cp-area--shop)
+
+
+!!!!!!!!!!!!!!!!!!!!!!
+!!!!! BLOCK JOBS !!!!!
+!!!!!!!!!!!!!!!!!!!!!!
+
 ! remove job section
 zeit.de##.jobbox
-! remove print ad from sidebar
-zeit.de##.print-box
+
 ! remove internal ad article teasers (e.g. job newsletter)
 zeit.de##.teaser-small--inhouse
-! remove ad article teasers
-zeit.de##.teaser-small--ad
-! remove games section
-zeit.de##.cp-region:has(div[data-ct-context="parquet-spiele"])
-! remove ads in dropdowns
-zeit.de##.nav__dropdown-item--has-label[data-label="Anzeige"]
-zeit.de##.nav__ressorts-item--has-label[data-label="Anzeige"]
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!! BLOCK PREMIUM !!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!
+
+! remove premium article teasers (paid)
+zeit.de##article[data-zplus="zplus"]
+
+! remove premium section
+zeit.de##.cp-region.cp-region--parquet:has(:scope>.cp-area--zplus-parquet)
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!! BLOCK PRINT ADS!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+! remove print ad from sidebar
+zeit.de##.print-box
+
 ! remove print kiosk
 zeit.de##.cp-region:has(.cp-area--printkiosk)
-! remove ads below articles
-zeit.de##.nextread-advertisement
+
 ! remove print reference in articles
 zeit.de##.article__media:has(:scope > .article__media-container > a[title^="DIE ZEIT"])
 zeit.de##.article__media:has(:scope > .article__media-container > img[data-alt^="DIE ZEIT"])
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!! BLOCK MORE ADS !!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+! remove ad article teasers
+zeit.de##.teaser-small--ad
+
+! remove ads in dropdowns
+zeit.de##.nav__dropdown-item--has-label[data-label="Anzeige"]
+zeit.de##.nav__ressorts-item--has-label[data-label="Anzeige"]
+
+! remove ads below articles
+zeit.de##.nextread-advertisement
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!! BLOCK RANDOM USELESS STUFF !!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+! remove games section
+zeit.de##.cp-region:has(div[data-ct-context="parquet-spiele"])
+
 ! get rid of navbars i don't use
 zeit.de##.nav__classifieds
 zeit.de##.nav__services
 zeit.de##.nav__login
 zeit.de##.header__brand:style(top:2rem !important)
+

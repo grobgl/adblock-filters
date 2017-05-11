@@ -71,6 +71,9 @@ zeit.de##.nextread-advertisement
 ! remove games section
 zeit.de##.cp-region:has(div[data-ct-context="parquet-spiele"])
 
+! block zeit magazin newsletter ad
+zeit.de##.newsletter-card--zon
+
 ! get rid of navbars i don't use
 zeit.de##.nav__classifieds
 zeit.de##.nav__services

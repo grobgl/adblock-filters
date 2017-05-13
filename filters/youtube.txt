@@ -1,0 +1,2 @@
+! hide ads in fullscreen mode
+youtube.com##.ytp-big-mode .ytp-title-channel

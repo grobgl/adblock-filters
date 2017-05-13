@@ -38,7 +38,6 @@ spiegel.de##.footer-partner.clearfix
 youtube.com##.ytp-big-mode .ytp-title-channel
 zeit.de##.teaser-small:has(.teaser-small__kicker-logo--zett)
 zeit.de##.cp-region.cp-region--parquet:has(.parquet-meta__logo.parquet-meta__logo--zett)
-zeit.de##.cp-region:has(.cp-area--shop)
 zeit.de##.jobbox
 zeit.de##.teaser-small--inhouse
 zeit.de##article[data-zplus="zplus"]
@@ -47,6 +46,7 @@ zeit.de##.print-box
 zeit.de##.cp-region:has(.cp-area--printkiosk)
 zeit.de##.article__media:has(:scope > .article__media-container > a[title^="DIE ZEIT"])
 zeit.de##.article__media:has(:scope > .article__media-container > img[data-alt^="DIE ZEIT"])
+zeit.de##.zplus-badge
 zeit.de##.teaser-small--ad
 zeit.de##.nav__dropdown-item--has-label[data-label="Anzeige"]
 zeit.de##.nav__ressorts-item--has-label[data-label="Anzeige"]
@@ -57,3 +57,4 @@ zeit.de##.nav__classifieds
 zeit.de##.nav__services
 zeit.de##.nav__login
 zeit.de##.header__brand:style(top:2rem !important)
+zeit.de##.cp-region:has(.cp-area--shop)

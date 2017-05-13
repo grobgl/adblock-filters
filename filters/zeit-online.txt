@@ -8,9 +8,6 @@ zeit.de##.teaser-small:has(.teaser-small__kicker-logo--zett)
 ! remove zett section
 zeit.de##.cp-region.cp-region--parquet:has(.parquet-meta__logo.parquet-meta__logo--zett)
 
-! remove shop section
-zeit.de##.cp-region:has(.cp-area--shop)
-
 
 !!!!!!!!!!!!!!!!!!!!!!
 !!!!! BLOCK JOBS !!!!!
@@ -47,6 +44,7 @@ zeit.de##.cp-region:has(.cp-area--printkiosk)
 ! remove print reference in articles
 zeit.de##.article__media:has(:scope > .article__media-container > a[title^="DIE ZEIT"])
 zeit.de##.article__media:has(:scope > .article__media-container > img[data-alt^="DIE ZEIT"])
+zeit.de##.zplus-badge
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -79,4 +77,7 @@ zeit.de##.nav__classifieds
 zeit.de##.nav__services
 zeit.de##.nav__login
 zeit.de##.header__brand:style(top:2rem !important)
+
+! remove shop section
+zeit.de##.cp-region:has(.cp-area--shop)
 

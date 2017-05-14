@@ -45,6 +45,8 @@ zeit.de##.cp-region:has(.cp-area--printkiosk)
 zeit.de##.article__media:has(:scope > .article__media-container > a[title^="DIE ZEIT"])
 zeit.de##.article__media:has(:scope > .article__media-container > img[data-alt^="DIE ZEIT"])
 zeit.de##.zplus-badge
+zeit.de##.article-header .article__item--has-badge.article__item--wide > .article__zplus .article__intro:style(max-width:100%)
+zeit.de##.article-body .volume-teaser
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!

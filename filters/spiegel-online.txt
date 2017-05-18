@@ -61,3 +61,6 @@ spiegel.de##script:contains(adb)
 
 ! block partner links in footer
 spiegel.de##.footer-partner.clearfix
+
+! hide spiegel daily
+spiegel.de##.spdailyboxhp

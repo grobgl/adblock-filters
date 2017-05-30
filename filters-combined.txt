@@ -1,4 +1,3 @@
-bild.de##script:contains(document.querySelector('body').innerHTML = str)
 getpocket.com##.item_type_spoc
 spiegel.de###wrapper:style(margin:0 !important)
 spiegel.de###wrapper-shadow:style(margin: 5px auto !important)

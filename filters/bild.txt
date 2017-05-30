@@ -1,3 +1,0 @@
-! remove adblock detection inline scripts
-bild.de##script:contains(document.querySelector('body').innerHTML = str)
-

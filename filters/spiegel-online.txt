@@ -20,7 +20,8 @@ spiegel.de##.meta-nav > li > a[href^="http://boersen.manager-magazin.de/mm/kurse
 
 ! hide bento
 spiegel.de##.module-box.bento
-spiegel.de##.teaser:has(.article-icon.bento)
+spiegel.de##.teaser:has(:scope > .article-icon.bento)
+spiegel.de##.article-list > li:has(:scope > .article-icon.bento)
 spiegel.de##.spTopThema:has(.article-icon.bento)
 spiegel.de##.asset-box:has(:scope > .asset-title > a[title="Auf bento"])
 spiegel.de##.spRessortTeaserBoxCompact.bento

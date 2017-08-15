@@ -1,3 +1,6 @@
+bloomberg.com##bb-mini-player
+bloomberg.com##.newsletter-tout
+bloomberg.com##.top-hat
 getpocket.com##.item_type_spoc
 spiegel.de###wrapper:style(margin:0 !important)
 spiegel.de###wrapper-shadow:style(margin: 5px auto !important)

@@ -1,0 +1,22 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!! BLOCK MINI PLAYER !!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+! remove mini player
+bloomberg.com##bb-mini-player
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!! NEWSLETTER SIGNUP !!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+! remove newsletter box on top of page
+bloomberg.com##.newsletter-tout
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!! BLOCK RANDOM USELESS STUFF !!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+! remove bloomberg terminal stuff from top
+bloomberg.com##.top-hat

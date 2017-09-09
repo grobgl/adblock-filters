@@ -65,3 +65,6 @@ spiegel.de##.footer-partner.clearfix
 
 ! hide spiegel daily
 spiegel.de##.spdailyboxhp
+
+! hide social media buttons in sidebar
+spiegel.de##.asset-box.social-media-icons

@@ -83,3 +83,5 @@ zeit.de##.header__brand:style(top:2rem !important)
 ! remove shop section
 zeit.de##.cp-region:has(.cp-area--shop)
 
+! remove social media follow us section
+zeit.de##.cp-region:has(:scope > .cp-area > .follow-us)

@@ -65,6 +65,7 @@ spiegel.de##.footer-partner.clearfix
 
 ! hide spiegel daily
 spiegel.de##.spdailyboxhp
+spiegel.de##.teaser:has(:scope > .clearfix > .article-title > .article-icon.spiegeldaily)
 
 ! hide social media buttons in sidebar
 spiegel.de##.asset-box.social-media-icons

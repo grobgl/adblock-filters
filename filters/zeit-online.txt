@@ -14,7 +14,7 @@ zeit.de##.cp-region.cp-region--parquet:has(.parquet-meta__logo.parquet-meta__log
 !!!!!!!!!!!!!!!!!!!!!!
 
 ! remove job section
-zeit.de##.jobbox
+zeit.de##.partnerbox
 
 ! remove internal ad article teasers (e.g. job newsletter)
 zeit.de##.teaser-small--inhouse

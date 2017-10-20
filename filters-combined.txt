@@ -45,7 +45,7 @@ spiegel.de##.asset-box.social-media-icons
 youtube.com##.ytp-big-mode .ytp-title-channel
 zeit.de##.teaser-small:has(.teaser-small__kicker-logo--zett)
 zeit.de##.cp-region.cp-region--parquet:has(.parquet-meta__logo.parquet-meta__logo--zett)
-zeit.de##.jobbox
+zeit.de##.partnerbox
 zeit.de##.teaser-small--inhouse
 zeit.de##article[data-zplus="zplus"]
 zeit.de##.cp-region.cp-region--parquet:has(:scope>.cp-area--zplus-parquet)

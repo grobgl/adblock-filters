@@ -1,0 +1,2 @@
+! remove article ads
+theoutline.com##div[data-campaign]

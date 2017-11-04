@@ -1,1 +1,5 @@
+! hide LZ-Plus stories
 facebook.com##div[data-testid=fbfeed_story]:has-text(LZ-Plus)
+
+! hide "x replied to a comment on this" stories
+facebook.com##div[data-testid=fbfeed_story]:has-text(replied to a comment on this.)

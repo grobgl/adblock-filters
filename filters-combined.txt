@@ -13,6 +13,7 @@ spiegel.de###spOasTop:style(width: auto !important)
 spiegel.de###spColumnAd
 spiegel.de###home.centerpage:style(cursor:default !important)
 spiegel.de##.adition:has(.innerwrapad)
+spiegel.de##.asset-affiliatebox
 spiegel.de##.meta-nav > li:has(a[href="http://tvprogramm.spiegel.de/"])
 spiegel.de##.meta-nav > li:has(a[href="http://tvprogramm.spiegel.de/"])
 spiegel.de##.meta-nav > li:has(a[href^="http://abo.spiegel.de/"])

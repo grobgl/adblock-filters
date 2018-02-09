@@ -11,6 +11,7 @@ spiegel.de###home.centerpage:style(cursor:default !important)
 
 ! hide ads
 spiegel.de##.adition:has(.innerwrapad)
+spiegel.de##.asset-affiliatebox
 
 ! remove tv and abo links
 spiegel.de##.meta-nav > li:has(a[href="http://tvprogramm.spiegel.de/"])

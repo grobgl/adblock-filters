@@ -1,0 +1,4 @@
+! hide app promo
+newyorker.com##div[class^=Ad__header]:style(padding:0)
+newyorker.com##section[class^=SoloPromoSection]
+newyorker.com##div[class^=HeroSection__heroSectionColumn]::before:style(height:0)

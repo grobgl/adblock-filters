@@ -8,6 +8,16 @@ getpocket.com##.item_type_spoc
 newyorker.com##div[class^=Ad__header]:style(padding:0)
 newyorker.com##section[class^=SoloPromoSection]
 newyorker.com##div[class^=HeroSection__heroSectionColumn]::before:style(height:0)
+newyorker.com##div[class^=Ad__contentriver]
+newyorker.com##div[class^=LatestSection__latestColumn]:style(border-bottom:0)
+newyorker.com##div[class^=SecondarySection__adContainer]
+newyorker.com##div[class^=SecondarySection__content]:style(flex:0 0 100%;max-width: 100%)
+newyorker.com##ul[class^=River__list]:style(margin-right:0 !important)
+newyorker.com##div[class^=River__secondarySectionTrio]:before:style(width:100%)
+newyorker.com##div[class^=River__secondarySectionTrio] > ul[class^=River__list]:style(margin-right:-30px !important)
+newyorker.com##div[class^=DailyCartoonSection__adContainer]
+newyorker.com##div[class^=DailyCartoonSection__content]:style(border-right:0;flex:0 0 100%;max-width:100%)
+newyorker.com##h3[class^=DailyCartoonSection__sectionHeader]:style(margin-right:0)
 spiegel.de###wrapper:style(margin:0 !important)
 spiegel.de###wrapper-shadow:style(margin: 5px auto !important)
 spiegel.de###wrapper:style(max-width: 100% !important)

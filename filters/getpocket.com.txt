@@ -1,1 +1,20 @@
+! hide sponsored items from article list
 getpocket.com##.item_type_spoc
+
+! hide sponsored items from recommended items
+getpocket.com##.item_recommend:has(:scope > .item_content > .spoc_header)
+
+! hide certain websites from recommended items
+getpocket.com##.item_recommend[data-itemurl^="http://www.espn.com"]
+getpocket.com##.item_recommend[data-itemurl^="https://fieldguide.gizmodo.com"]
+getpocket.com##.item_recommend[data-itemurl^="https://www.workingmother.com"]
+getpocket.com##.item_recommend[data-itemurl^="https://www.theringer.com"]
+getpocket.com##.item_recommend[data-itemurl^="https://www.medicalnewstoday.com"]
+getpocket.com##.item_recommend[data-itemurl^="https://www.brides.com"]
+getpocket.com##.item_recommend[data-itemurl^="https://www.fool.com"]
+getpocket.com##.item_recommend[data-itemurl^="https://www.inc.com"]
+getpocket.com##.item_recommend[data-itemurl^="https://offspring.lifehacker.com"]
+getpocket.com##.item_recommend[data-itemurl^="https://www.inverse.com"]
+getpocket.com##.item_recommend[data-itemurl^="http://www.businessinsider.com"]
+getpocket.com##.item_recommend[data-itemurl^="https://www.thecut.com"]
+getpocket.com##.item_recommend[data-itemurl^="https://www.cnbc.com"]

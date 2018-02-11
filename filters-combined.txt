@@ -5,6 +5,20 @@ facebook.com##div[data-testid=fbfeed_story]:has-text(LZ-Plus)
 facebook.com##div[data-testid=fbfeed_story][data-story_category="2"]:has(a[rel=theater])
 facebook.com##div[data-testid=fbfeed_story][data-story_category="2"]:has(video)
 getpocket.com##.item_type_spoc
+getpocket.com##.item_recommend:has(:scope > .item_content > .spoc_header)
+getpocket.com##.item_recommend[data-itemurl^="http://www.espn.com"]
+getpocket.com##.item_recommend[data-itemurl^="https://fieldguide.gizmodo.com"]
+getpocket.com##.item_recommend[data-itemurl^="https://www.workingmother.com"]
+getpocket.com##.item_recommend[data-itemurl^="https://www.theringer.com"]
+getpocket.com##.item_recommend[data-itemurl^="https://www.medicalnewstoday.com"]
+getpocket.com##.item_recommend[data-itemurl^="https://www.brides.com"]
+getpocket.com##.item_recommend[data-itemurl^="https://www.fool.com"]
+getpocket.com##.item_recommend[data-itemurl^="https://www.inc.com"]
+getpocket.com##.item_recommend[data-itemurl^="https://offspring.lifehacker.com"]
+getpocket.com##.item_recommend[data-itemurl^="https://www.inverse.com"]
+getpocket.com##.item_recommend[data-itemurl^="http://www.businessinsider.com"]
+getpocket.com##.item_recommend[data-itemurl^="https://www.thecut.com"]
+getpocket.com##.item_recommend[data-itemurl^="https://www.cnbc.com"]
 newyorker.com##div[class^=Ad__header]
 newyorker.com##section[class^=SoloPromoSection]
 newyorker.com##div[class^=HeroSection__heroSectionColumn]::before:style(height:0)

@@ -79,6 +79,7 @@ spiegel.de##.footer-partner.clearfix
 spiegel.de##.spdailyboxhp
 spiegel.de##.teaser:has(:scope > .clearfix > .article-title > .article-icon.spiegeldaily)
 spiegel.de##.asset-box.social-media-icons
+thelocal.de##.section:has(:scope > div:contains(Sponsored))
 theoutline.com##div[data-campaign]
 youtube.com##.ytp-big-mode .ytp-title-channel
 zeit.de##.teaser-small:has(.teaser-small__kicker-logo--zett)

@@ -1,0 +1,2 @@
+! hide email contacts from people you may know
+linkedin.com##.mn-pymk-list__card:has(:scope > .pymk-card > .pymk-card__action-container > button > span:has-text(to join))

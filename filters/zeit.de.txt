@@ -1,12 +1,15 @@
-!!!!!!!!!!!!!!!!!!!!!!
-!!!!! BLOCK ZETT !!!!!
-!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!! BLOCK SECTIONS !!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ! remove zett teasers
 zeit.de##.teaser-small:has(.teaser-small__kicker-logo--zett)
 
 ! remove zett section
 zeit.de##.cp-region.cp-region--parquet:has(.parquet-meta__logo.parquet-meta__logo--zett)
+
+! hide teilchen blog
+##.cp-region.cp-region--parquet:has(:scope > div[data-ct-context=parquet-teilchen-blog])
 
 
 !!!!!!!!!!!!!!!!!!!!!!

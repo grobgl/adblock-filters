@@ -9,7 +9,7 @@ zeit.de##.teaser-small:has(.teaser-small__kicker-logo--zett)
 zeit.de##.cp-region.cp-region--parquet:has(.parquet-meta__logo.parquet-meta__logo--zett)
 
 ! hide teilchen blog
-##.cp-region.cp-region--parquet:has(:scope > div[data-ct-context=parquet-teilchen-blog])
+zeit.de##.cp-region.cp-region--parquet:has(:scope > div[data-ct-context=parquet-teilchen-blog])
 
 
 !!!!!!!!!!!!!!!!!!!!!!

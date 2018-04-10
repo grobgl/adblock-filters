@@ -77,6 +77,7 @@ spiegel.de##div:has(:scope > .module-box > .teaser-box-header > .anz)
 spiegel.de##.magazin-box-inner
 spiegel.de##.spiegel-group
 spiegel.de##.js-slider-footer
+spiegel.de##.gutscheine-widget
 spiegel.de##script:contains(ADI)
 spiegel.de##script:contains(adb)
 spiegel.de##.footer-partner.clearfix

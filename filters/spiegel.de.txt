@@ -56,6 +56,7 @@ spiegel.de##.magazin-box-inner
 ! clean up footer
 spiegel.de##.spiegel-group
 spiegel.de##.js-slider-footer
+spiegel.de##.gutscheine-widget
 
 ! disable inline ad scripts (firefox only)
 spiegel.de##script:contains(ADI)

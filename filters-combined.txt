@@ -38,6 +38,7 @@ newyorker.com##div[class^=River__secondarySectionTrio] > ul[class^=River__list]:
 newyorker.com##div[class^=DailyCartoonSection__adContainer]
 newyorker.com##div[class^=DailyCartoonSection__content]:style(border-right:0;flex:0 0 100%;max-width:100%)
 newyorker.com##h3[class^=DailyCartoonSection__sectionHeader]:style(margin-right:0)
+newyorker.com##div[class^=SpotlightSection__sectionContentContainer]:style(padding-left: 0; padding-right: 0; flex: 0 0 100%; widht: 100%; max-width: 100%)
 newyorker.com##div[class^=Ad__global-footer]
 newyorker.com##div[class^=Layout__twoColumn] > main:style(flex:0 0 100%;max-width:100%)
 newyorker.com##aside[class^=Layout__twoColumn] > aside

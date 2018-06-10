@@ -1,2 +1,0 @@
-! hide paid content section
-theguardian.co.uk##[data-component^=labs-commercial-container-]

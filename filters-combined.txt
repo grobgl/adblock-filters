@@ -87,7 +87,7 @@ spiegel.de##.spdailyboxhp
 spiegel.de##.teaser:has(:scope > .clearfix > .article-title > .article-icon.spiegeldaily)
 spiegel.de##.asset-box.social-media-icons
 spiegel.de##.asset-box:has(:scope > .asset-title:has-text(SPIEGEL AKADEMIE - Zertifizierte Hochschulkurse))
-theguardian.co.uk##[data-component^=labs-commercial-container-]
+theguardian.com##[data-component^=labs-commercial-container-]
 thelocal.de##.section:has(:scope > div:contains(Sponsored))
 theoutline.com##div[data-campaign]
 youtube.com##.ytp-big-mode .ytp-title-channel

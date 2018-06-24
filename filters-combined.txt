@@ -117,3 +117,4 @@ zeit.de##.nav__login
 zeit.de##.header__brand:style(top:2rem !important)
 zeit.de##.cp-region:has(.cp-area--shop)
 zeit.de##.cp-region:has(:scope > .cp-area > .follow-us)
+zeit.de##.article-footer

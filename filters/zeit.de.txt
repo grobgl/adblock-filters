@@ -88,3 +88,6 @@ zeit.de##.cp-region:has(.cp-area--shop)
 
 ! remove social media follow us section
 zeit.de##.cp-region:has(:scope > .cp-area > .follow-us)
+
+! remove article footer (sharing stuff)
+zeit.de##.article-footer

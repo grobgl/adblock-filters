@@ -44,6 +44,7 @@ newyorker.com##div[class^=Ad__global-footer]
 newyorker.com##div[class^=Layout__twoColumn] > main:style(flex:0 0 100%;max-width:100%)
 newyorker.com##aside[class^=Layout__twoColumn] > aside
 newyorker.com##div[class^=Card__mostPopularRiver]:style(max-width:calc(100% - 53.33px))
+nytimes.com##div[id^=story-ad-]
 spiegel.de###wrapper:style(margin:0 !important)
 spiegel.de###wrapper-shadow:style(margin: 5px auto !important)
 spiegel.de###wrapper:style(max-width: 100% !important)

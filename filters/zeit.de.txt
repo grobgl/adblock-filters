@@ -66,6 +66,9 @@ zeit.de##.nav__ressorts-item--has-label[data-label="Anzeige"]
 ! remove ads below articles
 zeit.de##.nextread-advertisement
 
+! hide z2x announcements
+zeit.de##.cp-region:has(:scope > .cp-area > .z2x-banner-wide)
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!! BLOCK RANDOM USELESS STUFF !!!!!

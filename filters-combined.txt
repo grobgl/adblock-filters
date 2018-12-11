@@ -92,6 +92,7 @@ theguardian.com##[data-component^=labs-commercial-container-]
 thelocal.de##.section:has(:scope > div:contains(Sponsored))
 theoutline.com##div[data-campaign]
 theverge.com##script:inject(abort-on-property-read.js, ConcertAds)
+||twitch.tv/embed/*/chat^
 youtube.com##.ytp-big-mode .ytp-title-channel
 zeit.de##.teaser-small:has(.teaser-small__kicker-logo--zett)
 zeit.de##.cp-region.cp-region--parquet:has(.parquet-meta__logo.parquet-meta__logo--zett)

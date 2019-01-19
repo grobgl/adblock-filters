@@ -1,3 +1,7 @@
+!!!!!!!!!!!!!!!!!!!!!!
+!!!! Layout fixes !!!!
+!!!!!!!!!!!!!!!!!!!!!!
+
 ! center content
 spiegel.de###wrapper:style(margin:0 !important)
 spiegel.de###wrapper-shadow:style(margin: 5px auto !important)
@@ -5,19 +9,10 @@ spiegel.de###wrapper:style(max-width: 100% !important)
 spiegel.de###wrapper:style(min-width: auto !important)
 spiegel.de###spOasTop:style(width: auto !important)
 
-! hide sidebar ad
-spiegel.de###spColumnAd
-spiegel.de###home.centerpage:style(cursor:default !important)
 
-! hide ads
-spiegel.de##.adition:has(.innerwrapad)
-spiegel.de##.asset-affiliatebox
-
-! remove tv and abo links
-spiegel.de##.meta-nav > li:has(a[href="http://tvprogramm.spiegel.de/"])
-spiegel.de##.meta-nav > li:has(a[href="http://tvprogramm.spiegel.de/"])
-spiegel.de##.meta-nav > li:has(a[href^="http://abo.spiegel.de/"])
-spiegel.de##.meta-nav > li > a[href^="http://boersen.manager-magazin.de/mm/kurse_einzelkurs_uebersicht.htn"] + span
+!!!!!!!!!!!!!!!!!!!!!!
+!!!! Remove bento !!!!
+!!!!!!!!!!!!!!!!!!!!!!
 
 ! hide bento
 spiegel.de##.module-box.bento
@@ -34,6 +29,83 @@ spiegel.de##.article-icon.bento + span
 spiegel.de##.article-icon.bento + span + br
 spiegel.de##.article-icon.bento + span + br + a:style(margin-left: -.5em)
 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!
+!! Remove Spiegel Plus !!
+!!!!!!!!!!!!!!!!!!!!!!!!!
+
+! hide spiegel plus box from homepage (and fix content dividers)
+spiegel.de##.spplusbox18hp
+spiegel.de#$#.column-wide > div:nth-last-of-type(2) { border-bottom: 0 !important; }
+
+! hide spiegel plus sidebar link
+spiegel.de##.wrapper-plus-extra
+
+! hide spiegel plus teasers
+spiegel.de##.teaser:has(:scope > .clearfix > .article-title > .article-icon.spplus)
+
+! hide spiegel plus section
+spiegel.de##.module-box.plus
+
+!!!!!!!!!!!!!!!!!!!!!!
+!! Useless sections !!
+!!!!!!!!!!!!!!!!!!!!!!
+
+! hide social media buttons in sidebar
+spiegel.de##.asset-box.social-media-icons
+
+! hide spiegel daily
+spiegel.de##.spdailyboxhp
+spiegel.de##.teaser:has(:scope > .clearfix > .article-title > .article-icon.spiegeldaily)
+spiegel.de##.asset-box:has(:scope > div > .div_form_newsletter)
+
+! clean up footer
+spiegel.de##.spiegel-group
+spiegel.de##.js-slider-footer
+spiegel.de##.gutscheine-widget
+
+! remove tv and abo links
+spiegel.de##.meta-nav > li:has(a[href="http://tvprogramm.spiegel.de/"])
+spiegel.de##.meta-nav > li:has(a[href="http://tvprogramm.spiegel.de/"])
+spiegel.de##.meta-nav > li:has(a[href^="http://abo.spiegel.de/"])
+spiegel.de##.meta-nav > li > a[href^="http://boersen.manager-magazin.de/mm/kurse_einzelkurs_uebersicht.htn"] + span
+
+! remove viral video teasers from homepage
+spiegel.de##.teaser:has(:scope > .clearfix > h2 > a[title^=\Viral])
+spiegel.de##.ressort-teaser-box-top:has(:scope > h2 > a[title^=\Viral])
+
+
+!!!!!!!!!!!!!!!!!!!!!!
+!!!!! Random ads !!!!!
+!!!!!!!!!!!!!!!!!!!!!!
+
+! disable inline ad scripts (firefox only)
+spiegel.de##script:contains(ADI)
+spiegel.de##script:contains(adb)
+
+! remove gutscheine widget in sidebar (and fix content dividers)
+spiegel.de##.gutscheine-widget-spalte
+spiegel.de#$#.column-small > div:nth-last-of-type(2) { border-bottom: 0 !important; }
+
+! hide sidebar ad
+spiegel.de###spColumnAd
+spiegel.de###home.centerpage:style(cursor:default !important)
+
+! hide affiliate ads
+spiegel.de##.adition:has(.innerwrapad)
+spiegel.de##.asset-affiliatebox
+
+! hide content partner section
+spiegel.de##div:has(:scope > .module-box > .teaser-box-header > .anz)
+
+! block partner links in footer
+spiegel.de##.footer-partner.clearfix
+
+
+!!!!!!!!!!!!!!!!!!!!!!
+!!!! Internal ads !!!!
+!!!!!!!!!!!!!!!!!!!!!!
+
 ! mobile: hide, ads, quizzes, book charts teaser mobile
 spiegel.de##.asset-box:has(.adition#logobox)
 spiegel.de##.asset-box:has(:scope > div > .spezialbalken > .spezialbalken-innen > span > .spezialbalken-thumb > a > img[alt=Sudoku])
@@ -43,34 +115,12 @@ spiegel.de##.asset-box:has(:scope > div > .spezialbalken > .spezialbalken-innen 
 spiegel.de##.module-box.magazin-box
 spiegel.de##.asset-box:has(:scope > .spHeftBox)
 
-! remove viral video teasers from homepage
-spiegel.de##.teaser:has(:scope > .clearfix > h2 > a[title^=\Viral])
-spiegel.de##.ressort-teaser-box-top:has(:scope > h2 > a[title^=\Viral])
-
-! hide content partner section
-spiegel.de##div:has(:scope > .module-box > .teaser-box-header > .anz)
-
 ! hide print reference in articles
 spiegel.de##.magazin-box-inner
 
-! clean up footer
-spiegel.de##.spiegel-group
-spiegel.de##.js-slider-footer
-spiegel.de##.gutscheine-widget
-
-! disable inline ad scripts (firefox only)
-spiegel.de##script:contains(ADI)
-spiegel.de##script:contains(adb)
-
-! block partner links in footer
-spiegel.de##.footer-partner.clearfix
-
-! hide spiegel daily
-spiegel.de##.spdailyboxhp
-spiegel.de##.teaser:has(:scope > .clearfix > .article-title > .article-icon.spiegeldaily)
-
-! hide social media buttons in sidebar
-spiegel.de##.asset-box.social-media-icons
+! hide spiegel akademie from sidebar
+spiegel.de##.spakademiebox
 
 ! hide spiegel akademie
 spiegel.de##.asset-box:has(:scope > .asset-title:has-text(SPIEGEL AKADEMIE - Zertifizierte Hochschulkurse))
+

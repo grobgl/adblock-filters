@@ -50,14 +50,6 @@ spiegel.de###wrapper-shadow:style(margin: 5px auto !important)
 spiegel.de###wrapper:style(max-width: 100% !important)
 spiegel.de###wrapper:style(min-width: auto !important)
 spiegel.de###spOasTop:style(width: auto !important)
-spiegel.de###spColumnAd
-spiegel.de###home.centerpage:style(cursor:default !important)
-spiegel.de##.adition:has(.innerwrapad)
-spiegel.de##.asset-affiliatebox
-spiegel.de##.meta-nav > li:has(a[href="http://tvprogramm.spiegel.de/"])
-spiegel.de##.meta-nav > li:has(a[href="http://tvprogramm.spiegel.de/"])
-spiegel.de##.meta-nav > li:has(a[href^="http://abo.spiegel.de/"])
-spiegel.de##.meta-nav > li > a[href^="http://boersen.manager-magazin.de/mm/kurse_einzelkurs_uebersicht.htn"] + span
 spiegel.de##.module-box.bento
 spiegel.de##.teaser:has(:scope > .clearfix > .article-title > .article-icon.bento)
 spiegel.de##.article-list > li:has(:scope > .article-icon.bento)
@@ -69,24 +61,41 @@ spiegel.de##.article-icon.bento
 spiegel.de##.article-icon.bento + span
 spiegel.de##.article-icon.bento + span + br
 spiegel.de##.article-icon.bento + span + br + a:style(margin-left: -.5em)
+spiegel.de##.spplusbox18hp
+spiegel.de#$#.column-wide > div:nth-last-of-type(2) { border-bottom: 0 !important; }
+spiegel.de##.wrapper-plus-extra
+spiegel.de##.teaser:has(:scope > .clearfix > .article-title > .article-icon.spplus)
+spiegel.de##.module-box.plus
+spiegel.de##.asset-box.social-media-icons
+spiegel.de##.spdailyboxhp
+spiegel.de##.teaser:has(:scope > .clearfix > .article-title > .article-icon.spiegeldaily)
+spiegel.de##.asset-box:has(:scope > div > .div_form_newsletter)
+spiegel.de##.spiegel-group
+spiegel.de##.js-slider-footer
+spiegel.de##.gutscheine-widget
+spiegel.de##.meta-nav > li:has(a[href="http://tvprogramm.spiegel.de/"])
+spiegel.de##.meta-nav > li:has(a[href="http://tvprogramm.spiegel.de/"])
+spiegel.de##.meta-nav > li:has(a[href^="http://abo.spiegel.de/"])
+spiegel.de##.meta-nav > li > a[href^="http://boersen.manager-magazin.de/mm/kurse_einzelkurs_uebersicht.htn"] + span
+spiegel.de##.teaser:has(:scope > .clearfix > h2 > a[title^=\Viral])
+spiegel.de##.ressort-teaser-box-top:has(:scope > h2 > a[title^=\Viral])
+spiegel.de##script:contains(ADI)
+spiegel.de##script:contains(adb)
+spiegel.de##.gutscheine-widget-spalte
+spiegel.de#$#.column-small > div:nth-last-of-type(2) { border-bottom: 0 !important; }
+spiegel.de###spColumnAd
+spiegel.de###home.centerpage:style(cursor:default !important)
+spiegel.de##.adition:has(.innerwrapad)
+spiegel.de##.asset-affiliatebox
+spiegel.de##div:has(:scope > .module-box > .teaser-box-header > .anz)
+spiegel.de##.footer-partner.clearfix
 spiegel.de##.asset-box:has(.adition#logobox)
 spiegel.de##.asset-box:has(:scope > div > .spezialbalken > .spezialbalken-innen > span > .spezialbalken-thumb > a > img[alt=Sudoku])
 spiegel.de##.asset-box:has(:scope > div > .spezialbalken > .spezialbalken-innen > img[src$="bestseller_orange.png"])
 spiegel.de##.module-box.magazin-box
 spiegel.de##.asset-box:has(:scope > .spHeftBox)
-spiegel.de##.teaser:has(:scope > .clearfix > h2 > a[title^=\Viral])
-spiegel.de##.ressort-teaser-box-top:has(:scope > h2 > a[title^=\Viral])
-spiegel.de##div:has(:scope > .module-box > .teaser-box-header > .anz)
 spiegel.de##.magazin-box-inner
-spiegel.de##.spiegel-group
-spiegel.de##.js-slider-footer
-spiegel.de##.gutscheine-widget
-spiegel.de##script:contains(ADI)
-spiegel.de##script:contains(adb)
-spiegel.de##.footer-partner.clearfix
-spiegel.de##.spdailyboxhp
-spiegel.de##.teaser:has(:scope > .clearfix > .article-title > .article-icon.spiegeldaily)
-spiegel.de##.asset-box.social-media-icons
+spiegel.de##.spakademiebox
 spiegel.de##.asset-box:has(:scope > .asset-title:has-text(SPIEGEL AKADEMIE - Zertifizierte Hochschulkurse))
 theguardian.com##[data-component^=labs-commercial-container-]
 thelocal.de##.section:has(:scope > div:contains(Sponsored))

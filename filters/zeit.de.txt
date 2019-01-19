@@ -98,3 +98,7 @@ zeit.de##.article-footer
 
 ! remove quiz alexa link
 zeit.de##.quiz-alexa
+
+! block addefend overlay script
+||zeit.de/json/defendconfig/config.json^
+

@@ -95,6 +95,7 @@ theverge.com##script:inject(abort-on-property-read.js, ConcertAds)
 ||twitch.tv/embed/*/chat^
 youtube.com##.ytp-big-mode .ytp-title-channel
 zeit.de##.teaser-small:has(.teaser-small__kicker-logo--zett)
+zeit.de##.teaser-small-minor:has(.teaser-small-minor__kicker-logo--zett)
 zeit.de##.cp-region.cp-region--parquet:has(.parquet-meta__logo.parquet-meta__logo--zett)
 zeit.de##.cp-region.cp-region--parquet:has(:scope > div[data-ct-context=parquet-teilchen-blog])
 zeit.de##.partnerbox
@@ -113,7 +114,6 @@ zeit.de##.nav__dropdown-item--has-label[data-label="Anzeige"]
 zeit.de##.nav__ressorts-item--has-label[data-label="Anzeige"]
 zeit.de##.nextread-advertisement
 zeit.de##.cp-region:has(:scope > .cp-area > .z2x-banner-wide)
-||static.zeit.de/assets/*/js/27.js^
 zeit.de##.cp-region:has(div[data-ct-context="parquet-spiele"])
 zeit.de##.newsletter-card--zon
 zeit.de##.nav__classifieds
@@ -123,3 +123,4 @@ zeit.de##.header__brand:style(top:2rem !important)
 zeit.de##.cp-region:has(.cp-area--shop)
 zeit.de##.cp-region:has(:scope > .cp-area > .follow-us)
 zeit.de##.article-footer
+zeit.de##.quiz-alexa

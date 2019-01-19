@@ -4,6 +4,7 @@
 
 ! remove zett teasers
 zeit.de##.teaser-small:has(.teaser-small__kicker-logo--zett)
+zeit.de##.teaser-small-minor:has(.teaser-small-minor__kicker-logo--zett)
 
 ! remove zett section
 zeit.de##.cp-region.cp-region--parquet:has(.parquet-meta__logo.parquet-meta__logo--zett)
@@ -69,9 +70,6 @@ zeit.de##.nextread-advertisement
 ! hide z2x announcements
 zeit.de##.cp-region:has(:scope > .cp-area > .z2x-banner-wide)
 
-! block addefend overlay script
-||static.zeit.de/assets/*/js/27.js^
-
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!! BLOCK RANDOM USELESS STUFF !!!!!
@@ -97,3 +95,6 @@ zeit.de##.cp-region:has(:scope > .cp-area > .follow-us)
 
 ! remove article footer (sharing stuff)
 zeit.de##.article-footer
+
+! remove quiz alexa link
+zeit.de##.quiz-alexa

@@ -1,1 +1,2 @@
 theverge.com##script:inject(abort-on-property-read.js, ConcertAds)
+theverge.com##.l-header+.l-hub-wrapper

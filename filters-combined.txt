@@ -1,6 +1,7 @@
 bloomberg.com##bb-mini-player
 bloomberg.com##.newsletter-tout
 bloomberg.com##.top-hat
+||cbox.ws/box/^
 facebook.com##div[data-testid=fbfeed_story]:has-text(LZ-Plus)
 facebook.com##div[data-testid=fbfeed_story][data-story_category="2"]:has(a[rel=theater])
 facebook.com##div[data-testid=fbfeed_story][data-story_category="2"]:has(video)

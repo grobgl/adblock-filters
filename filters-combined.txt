@@ -99,6 +99,7 @@ spiegel.de##.magazin-box-inner
 spiegel.de##.spakademiebox
 spiegel.de##.asset-box:has(:scope > .asset-title:has-text(SPIEGEL AKADEMIE - Zertifizierte Hochschulkurse))
 theguardian.com##[data-component^=labs-container-]
+theguardian.com##.fc-container--thrasher
 thelocal.de##.section:has(:scope > div:contains(Sponsored))
 theoutline.com##div[data-campaign]
 theverge.com##script:inject(abort-on-property-read.js, ConcertAds)

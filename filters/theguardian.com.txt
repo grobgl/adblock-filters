@@ -1,2 +1,5 @@
 ! hide paid content section
 theguardian.com##[data-component^=labs-container-]
+
+! hide internal ad section
+theguardian.com##.fc-container--thrasher

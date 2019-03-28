@@ -124,3 +124,11 @@ spiegel.de##.spakademiebox
 ! hide spiegel akademie
 spiegel.de##.asset-box:has(:scope > .asset-title:has-text(SPIEGEL AKADEMIE - Zertifizierte Hochschulkurse))
 
+
+
+!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!! Misc !!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!
+
+! hide social media stuff
+spiegel.de###.article-function-social-media

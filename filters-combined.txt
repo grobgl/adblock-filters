@@ -98,7 +98,7 @@ spiegel.de##.asset-box:has(:scope > .spHeftBox)
 spiegel.de##.magazin-box-inner
 spiegel.de##.spakademiebox
 spiegel.de##.asset-box:has(:scope > .asset-title:has-text(SPIEGEL AKADEMIE - Zertifizierte Hochschulkurse))
-spiegel.de###.article-function-social-media
+spiegel.de##.article-function-social-media
 theguardian.com##[data-component^=labs-container-]
 theguardian.com##.fc-container--thrasher
 thelocal.de##.section:has(:scope > div:contains(Sponsored))

@@ -131,4 +131,4 @@ spiegel.de##.asset-box:has(:scope > .asset-title:has-text(SPIEGEL AKADEMIE - Zer
 !!!!!!!!!!!!!!!!!!!!!!
 
 ! hide social media stuff
-spiegel.de###.article-function-social-media
+spiegel.de##.article-function-social-media

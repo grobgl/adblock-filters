@@ -1,3 +1,5 @@
+amazon.co.uk###averageCustomerReviews_feature_div
+amazon.co.uk##.a-section:has(:scope > div > span > a > .a-icon-star-small)
 bloomberg.com##bb-mini-player
 bloomberg.com##.newsletter-tout
 bloomberg.com##.top-hat
@@ -104,6 +106,7 @@ thelocal.de##.section:has(:scope > div:contains(Sponsored))
 theoutline.com##div[data-campaign]
 theverge.com##script:inject(abort-on-property-read.js, ConcertAds)
 theverge.com##.l-header+.l-hub-wrapper
+theverge.com##.c-compact-river__entry:has(:scope > div > a[href^="https://www.theverge.com/good-deals"])
 ||twitch.tv/embed/*/chat^
 youtube.com##.ytp-big-mode .ytp-title-channel
 zeit.de##.teaser-small:has(.teaser-small__kicker-logo--zett)

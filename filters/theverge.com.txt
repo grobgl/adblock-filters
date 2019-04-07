@@ -1,2 +1,5 @@
 theverge.com##script:inject(abort-on-property-read.js, ConcertAds)
 theverge.com##.l-header+.l-hub-wrapper
+
+! hide good deals
+theverge.com##.c-compact-river__entry:has(:scope > div > a[href^="https://www.theverge.com/good-deals"])

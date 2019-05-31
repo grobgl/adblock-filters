@@ -70,6 +70,9 @@ zeit.de##.nextread-advertisement
 ! hide z2x announcements
 zeit.de##.cp-region:has(:scope > .cp-area > .z2x-banner-wide)
 
+! hide header ad
+zeit.de###iqd_mainAd
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!! BLOCK RANDOM USELESS STUFF !!!!!

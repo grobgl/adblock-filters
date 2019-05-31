@@ -99,6 +99,9 @@ zeit.de##.article-footer
 ! remove quiz alexa link
 zeit.de##.quiz-alexa
 
+! block job section
+zeit.de##.cp-region:has(:scope > .cp-area > .joblisting)
+
 ! block addefend overlay script
 ||zeit.de/json/defendconfig/config.json^
 

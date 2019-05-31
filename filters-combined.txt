@@ -140,4 +140,5 @@ zeit.de##.cp-region:has(.cp-area--shop)
 zeit.de##.cp-region:has(:scope > .cp-area > .follow-us)
 zeit.de##.article-footer
 zeit.de##.quiz-alexa
+zeit.de##.cp-region:has(:scope > .cp-area > .joblisting)
 ||zeit.de/json/defendconfig/config.json^

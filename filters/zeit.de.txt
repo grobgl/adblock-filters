@@ -39,6 +39,9 @@ zeit.de##table.buzzboard__table > tbody > tr > td:nth-child(2)
 zeit.de##table.buzzboard__table > thead > tr > th:nth-child(2)
 zeit.de##.buzz-box--plus
 
+! remove premium item from top navigation
+zeit.de##.nav__ressorts-item--featured
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!! BLOCK PRINT ADS!!!!!

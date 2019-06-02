@@ -34,6 +34,11 @@ zeit.de##article[data-zplus="zplus"]
 ! remove premium section
 zeit.de##.cp-region.cp-region--parquet:has(:scope>.cp-area--zplus-parquet)
 
+! remove premium from top articles
+zeit.de##table.buzzboard__table > tbody > tr > td:nth-child(2)
+zeit.de##table.buzzboard__table > thead > tr > th:nth-child(2)
+zeit.de##.buzz-box--plus
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!! BLOCK PRINT ADS!!!!!

@@ -118,6 +118,9 @@ zeit.de##.partnerbox
 zeit.de##.teaser-small--inhouse
 zeit.de##article[data-zplus="zplus"]
 zeit.de##.cp-region.cp-region--parquet:has(:scope>.cp-area--zplus-parquet)
+zeit.de##table.buzzboard__table > tbody > tr > td:nth-child(2)
+zeit.de##table.buzzboard__table > thead > tr > th:nth-child(2)
+zeit.de##.buzz-box--plus
 zeit.de##.print-box
 zeit.de##.cp-region:has(.cp-area--printkiosk)
 zeit.de##.article__media:has(:scope > .article__media-container > a[title^="DIE ZEIT"])

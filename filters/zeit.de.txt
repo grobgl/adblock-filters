@@ -11,7 +11,7 @@ zeit.de##.zon-teaser-wide:has(:scope > a[href^="https://ze.tt"])
 zeit.de##.cp-region:has(:scope > .cp-area--headed-zett)
 
 ! remove premium section
-zeit.de##.cp-region:has(:scope > [data-ct-context="headed-plus"])
+zeit.de##.cp-region:has(:scope > [data-ct-context="headed-zplus"])
 
 
 !!!!!!!!!!!!!!!!!!!!!!

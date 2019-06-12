@@ -62,6 +62,7 @@ zeit.de##.article-body .volume-teaser
 
 ! remove ad article teasers
 zeit.de##.zon-teaser-standard--ad
+zeit.de##.zon-teaser-standard--inhouse
 
 ! remove ads in dropdowns
 zeit.de##.nav__dropdown-item--has-label[data-label="Anzeige"]

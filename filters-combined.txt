@@ -129,6 +129,7 @@ zeit.de##.zplus-badge
 zeit.de##.article-header .article__item--has-badge.article__item--wide > .article__zplus .article__intro:style(max-width:100% !important)
 zeit.de##.article-body .volume-teaser
 zeit.de##.zon-teaser-standard--ad
+zeit.de##.zon-teaser-standard--inhouse
 zeit.de##.nav__dropdown-item--has-label[data-label="Anzeige"]
 zeit.de##.nav__ressorts-item--has-label[data-label="Anzeige"]
 zeit.de##.nextread-advertisement

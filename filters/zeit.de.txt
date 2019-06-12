@@ -3,22 +3,17 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ! remove zett teasers
-zeit.de##.teaser-small:has(.teaser-small__kicker-logo--zett)
-zeit.de##.teaser-small-minor:has(.teaser-small-minor__kicker-logo--zett)
+zeit.de##.zon-teaser-standard:has(:scope > a[href^="https://ze.tt"])
+zeit.de##.zon-teaser-poster:has(:scope > a[href^="https://ze.tt"])
+zeit.de##.zon-teaser-wide:has(:scope > a[href^="https://ze.tt"])
 
 ! remove zett section
-zeit.de##.cp-region.cp-region--parquet:has(.parquet-meta__logo.parquet-meta__logo--zett)
-
-! hide teilchen blog
-zeit.de##.cp-region.cp-region--parquet:has(:scope > div[data-ct-context=parquet-teilchen-blog])
+zeit.de##.cp-region:has(:scope > .cp-area--headed-zett)
 
 
 !!!!!!!!!!!!!!!!!!!!!!
 !!!!! BLOCK JOBS !!!!!
 !!!!!!!!!!!!!!!!!!!!!!
-
-! remove job section
-zeit.de##.partnerbox
 
 ! remove internal ad article teasers (e.g. job newsletter)
 zeit.de##.teaser-small--inhouse
@@ -28,11 +23,11 @@ zeit.de##.teaser-small--inhouse
 !!!!! BLOCK PREMIUM !!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!
 
+! remove print box on front page
+zeit.de##.zon-teaser-printbox
+
 ! remove premium article teasers (paid)
 zeit.de##article[data-zplus="zplus"]
-
-! remove premium section
-zeit.de##.cp-region.cp-region--parquet:has(:scope>.cp-area--zplus-parquet)
 
 ! remove premium from top articles
 zeit.de##table.buzzboard__table > tbody > tr > td:nth-child(2)
@@ -46,9 +41,6 @@ zeit.de##.nav__ressorts-item--featured
 !!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!! BLOCK PRINT ADS!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!
-
-! remove print ad from sidebar
-zeit.de##.print-box
 
 ! remove print kiosk
 zeit.de##.cp-region:has(.cp-area--printkiosk)
@@ -66,7 +58,7 @@ zeit.de##.article-body .volume-teaser
 !!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ! remove ad article teasers
-zeit.de##.teaser-small--ad
+zeit.de##.zon-teaser-standard--ad
 
 ! remove ads in dropdowns
 zeit.de##.nav__dropdown-item--has-label[data-label="Anzeige"]
@@ -87,7 +79,7 @@ zeit.de###iqd_mainAd
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ! remove games section
-zeit.de##.cp-region:has(div[data-ct-context="parquet-spiele"])
+zeit.de##.cp-region:has(:scope > [data-ct-context="headed-spiele"])
 
 ! block zeit magazin newsletter ad
 zeit.de##.newsletter-card--zon

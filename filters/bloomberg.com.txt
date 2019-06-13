@@ -20,3 +20,9 @@ bloomberg.com##.newsletter-tout
 
 ! remove bloomberg terminal stuff from top
 bloomberg.com##.top-hat
+
+
+!!!!!!!!!!!!!!!!!!!!!!
+!!!!! Unpaywall !!!!!!
+!!!!!!!!!!!!!!!!!!!!!!
+bloomberg.com##script:inject(setTimeout-defuser.js)

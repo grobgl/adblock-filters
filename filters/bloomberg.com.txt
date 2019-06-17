@@ -25,4 +25,4 @@ bloomberg.com##.top-hat
 !!!!!!!!!!!!!!!!!!!!!!
 !!!!! Unpaywall !!!!!!
 !!!!!!!!!!!!!!!!!!!!!!
-bloomberg.com##script:inject(abort-on-property-read.js, _fence)
+bloomberg.com##script:inject(abort-on-property-read.js, _fence._fence.store)

@@ -3,7 +3,7 @@ amazon.co.uk##.a-section:has(:scope > div > span > a > .a-icon-star-small)
 bloomberg.com##bb-mini-player
 bloomberg.com##.newsletter-tout
 bloomberg.com##.top-hat
-bloomberg.com##script:inject(abort-on-property-read.js, _fence)
+bloomberg.com##script:inject(abort-on-property-read.js, _fence._fence.store)
 ||cbox.ws/box/^
 facebook.com##div[data-testid=fbfeed_story]:has-text(LZ-Plus)
 facebook.com##div[data-testid=fbfeed_story][data-story_category="2"]:has(a[rel=theater])

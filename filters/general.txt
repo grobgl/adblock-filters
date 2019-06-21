@@ -1,0 +1,6 @@
+||google-analytics.com^$important
+||scorecardresearch.com^$important
+||googletagservices.com^$important
+
+! block confiant
+||confiant-integrations.global.ssl.fastly.net^$important

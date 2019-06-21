@@ -8,6 +8,10 @@ bloomberg.com##script:inject(abort-on-property-read.js, _fence._fence.store)
 facebook.com##div[data-testid=fbfeed_story]:has-text(LZ-Plus)
 facebook.com##div[data-testid=fbfeed_story][data-story_category="2"]:has(a[rel=theater])
 facebook.com##div[data-testid=fbfeed_story][data-story_category="2"]:has(video)
+||google-analytics.com^$important
+||scorecardresearch.com^$important
+||googletagservices.com^$important
+||confiant-integrations.global.ssl.fastly.net^$important
 getpocket.com##.item_type_spoc
 getpocket.com##.item_recommend:has(:scope > .item_content > .spoc_header)
 getpocket.com##.item_recommend[data-itemurl^="http://www.espn.com"]
@@ -107,7 +111,6 @@ theguardian.com##.fc-container--thrasher
 theguardian.com##.fc-container__mpu--mobile
 theguardian.com##.most-popular__mpu
 theguardian.com##.ad-slot
-||confiant-integrations.global.ssl.fastly.net^
 thelocal.de##.section:has(:scope > div:contains(Sponsored))
 theoutline.com##div[data-campaign]
 theverge.com##script:inject(abort-on-property-read.js, ConcertAds)

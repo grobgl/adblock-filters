@@ -104,6 +104,10 @@ spiegel.de##.asset-box:has(:scope > .asset-title:has-text(SPIEGEL AKADEMIE - Zer
 spiegel.de##.article-function-social-media
 theguardian.com##[data-component^=labs-container-]
 theguardian.com##.fc-container--thrasher
+theguardian.com##.fc-container__mpu--mobile
+theguardian.com##.most-popular__mpu
+theguardian.com##.ad-slot
+||confiant-integrations.global.ssl.fastly.net^
 thelocal.de##.section:has(:scope > div:contains(Sponsored))
 theoutline.com##div[data-campaign]
 theverge.com##script:inject(abort-on-property-read.js, ConcertAds)

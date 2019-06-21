@@ -3,3 +3,11 @@ theguardian.com##[data-component^=labs-container-]
 
 ! hide internal ad section
 theguardian.com##.fc-container--thrasher
+
+! hide mobile ads
+theguardian.com##.fc-container__mpu--mobile
+theguardian.com##.most-popular__mpu
+theguardian.com##.ad-slot
+
+! block confiant
+||confiant-integrations.global.ssl.fastly.net^

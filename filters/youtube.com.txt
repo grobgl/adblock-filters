@@ -3,4 +3,4 @@ youtube.com##.ytp-big-mode .ytp-title-channel
 
 ! hide comments
 youtube.com##ytd-comments
-youtube.com##ytd-video-secondary-info-renderer:style(border:none)
+youtube.com##ytd-video-secondary-info-renderer:style(border:none!important)

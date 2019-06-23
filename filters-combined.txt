@@ -118,6 +118,8 @@ theverge.com##.l-header+.l-hub-wrapper
 theverge.com##.c-compact-river__entry:has(:scope > div > a[href^="https://www.theverge.com/good-deals"])
 ||twitch.tv/embed/*/chat^
 youtube.com##.ytp-big-mode .ytp-title-channel
+youtube.com##ytd-comments
+youtube.com##ytd-video-secondary-info-renderer:style(border:none)
 zeit.de##.zon-teaser-standard:has(:scope > a[href^="https://ze.tt"])
 zeit.de##.zon-teaser-poster:has(:scope > a[href^="https://ze.tt"])
 zeit.de##.zon-teaser-wide:has(:scope > a[href^="https://ze.tt"])

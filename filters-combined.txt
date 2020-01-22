@@ -60,9 +60,8 @@ spiegel.de##section[data-area="block>DeinSPIEGEL"]
 spiegel.de##[data-area="vouchers"]
 spiegel.de##[data-area="services"]
 spiegel.de##footer > div > div:has(:scope > div > h2 > a[href^="https://spiele.spiegel.de"])
-spiegel.de##[data-area^="article_teaser"]:has(header > h2 > a > span > [data-contains-flags="paid"])
-spiegel.de##[data-area="block>topic"]:has([data-area^="article_teaser"]:has(header > h2 > a > span > [data-contains-flags="paid"]))
-spiegel.de##.dotted-line-b:has(+ [data-area^="article_teaser"]:has(header > h2 > a > span > [data-contains-flags="paid"]))
+spiegel.de##[data-area^="article_teaser"]:has(h2 > a > span [data-contains-flags="paid"])
+spiegel.de##.dotted-line-b:has(+ [data-area^="article_teaser"]:has(h2 > a > span [data-contains-flags="paid"]))
 spiegel.de##[data-area="block>topic:meistgelesen_bei_spiegel+"]
 spiegel.de##div > article[aria-label^="Anzeige: "]
 spiegel.de##[data-area^=group]:has(:scope > div > article[aria-label^="Anzeige: "]):not(:has(:scope > div:nth-child(6)))

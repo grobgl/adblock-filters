@@ -38,10 +38,10 @@ spiegel.de##footer > div > div:has(:scope > div > h2 > a[href^="https://spiele.s
 !!!!!!!!!!!!!!!!!!!!!!
 
 ! teasers
-spiegel.de##[data-area^="article_teaser"]:has(header > h2 > a > span > [data-contains-flags="paid"])
-spiegel.de##[data-area="block>topic"]:has([data-area^="article_teaser"]:has(header > h2 > a > span > [data-contains-flags="paid"]))
-! spiegel.de##[data-area^="article_teaser"]:has(header > h2 > a > span > [data-contains-flags="paid"]) + .dotted-line-b
-spiegel.de##.dotted-line-b:has(+ [data-area^="article_teaser"]:has(header > h2 > a > span > [data-contains-flags="paid"]))
+spiegel.de##[data-area^="article_teaser"]:has(h2 > a > span [data-contains-flags="paid"])
+! spiegel.de##[data-area="block>topic"]:has([data-area^="article_teaser"]:has(h2 > a > span [data-contains-flags="paid"]))
+! spiegel.de##[data-area^="article_teaser"]:has(h2 > a > span [data-contains-flags="paid"]) + .dotted-line-b
+spiegel.de##.dotted-line-b:has(+ [data-area^="article_teaser"]:has(h2 > a > span [data-contains-flags="paid"]))
 
 ! most read
 spiegel.de##[data-area="block>topic:meistgelesen_bei_spiegel+"]

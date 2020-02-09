@@ -53,7 +53,7 @@ newyorker.com##div[class^=Layout__twoColumn] > main:style(flex:0 0 100%;max-widt
 newyorker.com##aside[class^=Layout__twoColumn] > aside
 newyorker.com##div[class^=Card__mostPopularRiver]:style(max-width:calc(100% - 53.33px))
 nytimes.com##div[id^=story-ad-]
-spiegel.de##[data-area="block>topic"]:has(:scope > div > article > div > div > header > h2 > a[href^="https://www.bento.de"])
+spiegel.de##[data-area^="article_teaser"]:has(h2 > a[href^="https://www.bento.de"])
 spiegel.de##section[data-area="block>Bento-Box"]
 spiegel.de##section[data-area="block>podlove:und_was_machst_du_so?_der_job-podcast_von_bento"]
 spiegel.de##section[data-area="block>DeinSPIEGEL"]

@@ -111,7 +111,9 @@ zeit.de##.newsletter-card--zon
 zeit.de##.nav__classifieds
 zeit.de##.nav__services
 zeit.de##.nav__login
-zeit.de##.header__brand:style(top:2rem !important)
+zeit.de##.sticky-nav__content:after
+zeit.de##.sticky-nav__zplus > a[data-ct-label=zplus]
+zeit.de##.sticky-nav__zplus > .nav__login--sticky:style(right: 0 !important)
 zeit.de##.cp-region:has(.cp-area--shop)
 zeit.de##.cp-region:has(:scope > .cp-area > .follow-us)
 zeit.de##.article-footer

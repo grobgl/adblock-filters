@@ -93,6 +93,7 @@ zeit.de##table.buzzboard__table > tbody > tr > td:nth-child(2)
 zeit.de##table.buzzboard__table > thead > tr > th:nth-child(2)
 zeit.de##.buzz-box--plus
 zeit.de##.nav__ressorts-item--featured
+zeit.de##.cp-region--dossier:has(:scope > section > h2 > span:has-text(Das Beste aus Z+))
 zeit.de##.cp-region:has(.cp-area--printkiosk)
 zeit.de##.article__media:has(:scope > .article__media-container > a[title^="DIE ZEIT"])
 zeit.de##.article__media:has(:scope > .article__media-container > img[data-alt^="DIE ZEIT"])

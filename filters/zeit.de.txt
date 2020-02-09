@@ -40,6 +40,9 @@ zeit.de##.buzz-box--plus
 ! remove premium item from top navigation
 zeit.de##.nav__ressorts-item--featured
 
+! remove best of
+zeit.de##.cp-region--dossier:has(:scope > section > h2 > span:has-text(Das Beste aus Z+))
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!! BLOCK PRINT ADS!!!!!

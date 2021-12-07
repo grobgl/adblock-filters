@@ -80,6 +80,9 @@ zeit.de##.cp-region:has(:scope > .cp-area > .z2x-banner-wide)
 ! hide header ad
 zeit.de###iqd_mainAd
 
+! paywall footer
+www.zeit.de##.paywall-footer
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!! BLOCK RANDOM USELESS STUFF !!!!!

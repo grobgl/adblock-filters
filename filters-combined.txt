@@ -107,6 +107,7 @@ zeit.de##.nav__ressorts-item--has-label[data-label="Anzeige"]
 zeit.de##.nextread-advertisement
 zeit.de##.cp-region:has(:scope > .cp-area > .z2x-banner-wide)
 zeit.de###iqd_mainAd
+zeit.de##.paywall-footer
 zeit.de##.cp-region:has(:scope > [data-ct-context="headed-spiele"])
 zeit.de##.newsletter-card--zon
 zeit.de##.nav__classifieds

@@ -10,9 +10,6 @@ zeit.de##.zon-teaser-wide:has(:scope > a[href^="https://ze.tt"])
 ! remove zett section
 zeit.de##.cp-region:has(:scope > .cp-area--headed-zett)
 
-! remove premium section
-zeit.de##.cp-region:has(:scope > [data-ct-context="headed-zplus"])
-
 
 !!!!!!!!!!!!!!!!!!!!!!
 !!!!! BLOCK JOBS !!!!!
@@ -28,20 +25,6 @@ zeit.de##.teaser-small--inhouse
 
 ! remove print box on front page
 zeit.de##.zon-teaser-printbox
-
-! remove premium article teasers (paid)
-zeit.de##article[data-zplus="zplus"]
-
-! remove premium from top articles
-zeit.de##table.buzzboard__table > tbody > tr > td:nth-child(2)
-zeit.de##table.buzzboard__table > thead > tr > th:nth-child(2)
-zeit.de##.buzz-box--plus
-
-! remove premium item from top navigation
-zeit.de##.nav__ressorts-item--featured
-
-! remove best of
-zeit.de##.cp-region--dossier:has(:scope > section > h2 > span:has-text(Das Beste aus Z+))
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -99,7 +82,6 @@ zeit.de##.nav__classifieds
 zeit.de##.nav__services
 zeit.de##.nav__login
 zeit.de##.sticky-nav__content:after
-zeit.de##.sticky-nav__zplus > a[data-ct-label=zplus]
 zeit.de##.sticky-nav__zplus > .nav__login--sticky:style(right: 0 !important)
 zeit.de##.header:not(.header--sticky) > .header__brand:style(top: 2rem !important)
 

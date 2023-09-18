@@ -19,3 +19,5 @@ $discard,site=learnpython.com
 $discard,site=w3schools.com
 $discard,site=tutorialspoint.com
 $discard,site=youtube.com
+$discard,site=programiz.com
+$discard,site=datacamp.com

@@ -1,20 +1,22 @@
 ! name: Code Goggle
-! description: Search google for code reference search. Prioritises: official docs, stackoverflow, github. Blocks: SEO spam, Medium, some blogs.
+! description: Brave search goggle for code reference search. Prioritises: official docs, websites, sources. Blocks: SEO spam, Medium, some blogs.
 ! public: false
 ! author: Georg
 
 $boost=3,site=python.org
 /docs/$boost=2
 /docs.$boost=2
-$boost,site=pydata.org
+$boost=2,site=pydata.org
 $boost,site=stackoverflow.com
 $boost,site=readthedocs.io
 $boost,site=iceberg.apache.org
 $boost,site=spark.apache.org
+$boost,site=github.com
 /api/python/$boost=2,site=spark.apache.org
 
 $downrank,site=reddit.com
 /discuss.$downrank
+/issues/$downrank,site=github.com
 
 $discard,site=infoworld.com
 $discard,site=earthly.dev
@@ -42,3 +44,7 @@ $discard,site=sparkbyexamples.com
 $discard,site=digitalocean.com
 $discard,site=w3cub.com
 /api/R/$site=spark.apache.org,discard
+$discard,site=askpython.com
+$discard,site=appsloveworld.com
+$discard,site=w3resource.com
+$discard,site=machinelearningmastery.com

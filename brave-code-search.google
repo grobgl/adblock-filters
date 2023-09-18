@@ -4,6 +4,10 @@
 ! author: Georg
 
 $boost=3,site=python.org
+/docs/$boost=2
+/docs.$boost=2
+$boost,site=pydata.org
+$boost,site=apache.org
 $boost,site=stackoverflow.com
 
 $downrank,site=reddit.com

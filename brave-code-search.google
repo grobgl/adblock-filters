@@ -1,0 +1,21 @@
+! name: Code Goggle
+! description: Search google for code reference search. Prioritises: official docs, stackoverflow, github. Blocks: SEO spam, Medium, some blogs.
+! public: false
+! author: Georg
+
+$boost=3,site=*.python.org
+$boost,site=stackoverflow.com
+
+$downrank,site=reddit.com
+
+$discard,site=infoworld.com
+$discard,site=earthly.dev
+$discard,site=python-course.eu
+$discard,site=inspiredpython.com
+$discard,site=geeksforgeeks.org
+$discard,site=medium.com
+$discard,site=towardsdatascience.com
+$discard,site=learnpython.com
+$discard,site=w3schools.com
+$discard,site=tutorialspoint.com
+$discard,site=youtube.com

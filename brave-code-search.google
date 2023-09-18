@@ -9,8 +9,10 @@ $boost=3,site=python.org
 $boost,site=pydata.org
 $boost,site=apache.org
 $boost,site=stackoverflow.com
+$boost,site=readthedocs.io
 
 $downrank,site=reddit.com
+/discuss.$downrank
 
 $discard,site=infoworld.com
 $discard,site=earthly.dev
@@ -25,3 +27,6 @@ $discard,site=tutorialspoint.com
 $discard,site=youtube.com
 $discard,site=programiz.com
 $discard,site=datacamp.com
+$discard,site=freecodecamp.org
+$discard,site=knowledgehut.com
+$discard,site=simplilearn.com

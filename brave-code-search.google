@@ -7,9 +7,11 @@ $boost=3,site=python.org
 /docs/$boost=2
 /docs.$boost=2
 $boost,site=pydata.org
-$boost,site=apache.org
 $boost,site=stackoverflow.com
 $boost,site=readthedocs.io
+$boost,site=iceberg.apache.org
+$boost,site=spark.apache.org
+/api/python/$boost=2,site=spark.apache.org
 
 $downrank,site=reddit.com
 /discuss.$downrank
@@ -30,3 +32,13 @@ $discard,site=datacamp.com
 $discard,site=freecodecamp.org
 $discard,site=knowledgehut.com
 $discard,site=simplilearn.com
+$discard,site=pythonbasics.org
+$discard,site=note.nkmk.me
+$discard,site=translate.goog
+$discard,site=ecoagi.ai
+$discard,site=enpiar.com
+$discard,site=lifewithdata.com
+$discard,site=sparkbyexamples.com
+$discard,site=digitalocean.com
+$discard,site=w3cub.com
+/api/R/$site=spark.apache.org,discard

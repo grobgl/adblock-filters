@@ -3,20 +3,20 @@
 ! public: false
 ! author: Georg
 
-$boost=3,site=python.org
+$boost=2,site=python.org
 /docs/$boost=2
 /docs.$boost=2
-$boost=2,site=pydata.org
-$boost,site=stackoverflow.com
-$boost,site=readthedocs.io
-$boost,site=iceberg.apache.org
-$boost,site=spark.apache.org
-$boost,site=github.com
 /api/python/$boost=2,site=spark.apache.org
+$boost=2,site=pydata.org
+$boost=1,site=stackoverflow.com
+$boost=1,site=readthedocs.io
+$boost=1,site=iceberg.apache.org
+$boost=1,site=spark.apache.org
+$boost=1,site=github.com
 
-$downrank,site=reddit.com
-/discuss.$downrank
-/issues/$downrank,site=github.com
+$downrank=1,site=reddit.com
+/discuss.$downrank=3
+/issues/$downrank=1,site=github.com
 
 $discard,site=infoworld.com
 $discard,site=earthly.dev
@@ -48,3 +48,9 @@ $discard,site=askpython.com
 $discard,site=appsloveworld.com
 $discard,site=w3resource.com
 $discard,site=machinelearningmastery.com
+$discard,site=pythonguides.com
+$discard,site=bitdegree.org
+$discard,site=projectpro.io
+$discard,site=pythonexamples.org
+$discard,site=stackvidhya.com
+$discard,site=codegrepper.com

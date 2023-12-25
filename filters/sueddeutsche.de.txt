@@ -4,3 +4,4 @@ sueddeutsche.de##[data-iqadtile-wrapper]
 sueddeutsche.de##div:has(>div>[data-hydration-component-name=VoucherWidgetToken])
 sueddeutsche.de##[class^=szde-homie-page-content__separator-item]:has(>section a[href^="https://szshop.sueddeutsche.de"])
 sueddeutsche.de##[class^=szde-homie-page-content__separator-item]:has(>[id^=end-of-article-joboffers])
+sueddeutsche.de##footer

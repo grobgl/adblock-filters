@@ -1,2 +1,0 @@
-! block sponsored sections
-thelocal.de##.section:has(:scope > div:contains(Sponsored))

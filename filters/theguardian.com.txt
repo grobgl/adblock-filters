@@ -1,10 +1,16 @@
-! hide paid content section
 theguardian.com##[data-component^=labs-container-]
-
-! hide internal ad section
 theguardian.com##.fc-container--thrasher
-
-! hide mobile ads
 theguardian.com##.fc-container__mpu--mobile
 theguardian.com##.most-popular__mpu
 theguardian.com##.ad-slot
+www.theguardian.com##.fc-container:has(:scope  > .dumathoin--paidfor)
+www.theguardian.com##.fc-container:has(> .dumathoin--paidfor)
+www.theguardian.com##.header-top-nav__full-width:style(background: inherit !important)
+www.theguardian.com##section#uncrap-the-world
+www.theguardian.com##section#wordiply
+www.theguardian.com##section#cotton-capital
+www.theguardian.com##section#guardian-labs
+www.theguardian.com##section#first-edition-newsletter
+www.theguardian.com##section:has(>div>div>div>a[href="https://www.theguardian.com/guardian-labs"])
+www.theguardian.com##section>div>ul>li:has(>div>div>div>div>footer>div>a[data-sponsor])
+www.theguardian.com##div:has(>div>section#documentaries)

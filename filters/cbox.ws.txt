@@ -1,2 +1,0 @@
-! block chat everywhere
-||cbox.ws/box/^

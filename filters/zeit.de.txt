@@ -96,10 +96,27 @@ zeit.de##.article-footer
 
 ! remove quiz alexa link
 zeit.de##.quiz-alexa
-
-! block job section
 zeit.de##.cp-region:has(:scope > .cp-area > .joblisting)
-
-! block addefend overlay script
 ||zeit.de/json/defendconfig/config.json^
-
+www.zeit.de##div.ad-container
+www.zeit.de##div.ad-container[data-type=mobile]
+www.zeit.de##.article__item--marginalia
+www.zeit.de##.zplus-badge
+www.zeit.de##.no-print
+www.zeit.de##div.ad-container
+www.zeit.de##.zg-wiegehtesihnen
+www.zeit.de##.article-player--has-player
+www.zeit.de##.cp-area:has(:scope > .frame--quiz.frame)
+www.zeit.de##.podcast-bar.cp-area
+www.zeit.de##.jobbox-ticker
+www.zeit.de##article[data-unique-id^="http://xml.zeit.de/spiele"]
+zeit.de##+js(ra, href, .rtr-entity)
+zeit.de##.rtr-entity:style(border-bottom: inherit !important; color: inherit !important)
+www.zeit.de##.zoner-rotes-telefon-wrapper
+www.zeit.de##.header-article__link-list
+www.zeit.de##.zon-promo-module
+www.zeit.de##div:has(> .zoner-seitenwechsel-banner)
+www.zeit.de##[data-render="2023-zg-the-world-talks-index"]
+www.zeit.de##div:has(>aside.verbrechen-signup-wrapper)
+www.zeit.de##div:has(> .zoner-wjw-speech-wrapper)
+www.zeit.de##div:has(>.zoner-gdas-einschuss-banner)

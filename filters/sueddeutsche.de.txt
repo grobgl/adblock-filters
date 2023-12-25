@@ -1,0 +1,6 @@
+sueddeutsche.de##[data-manual=teaser-group]:has(>[data-iqadtile-wrapper])
+sueddeutsche.de###iqd_mainAd
+sueddeutsche.de##[data-iqadtile-wrapper]
+sueddeutsche.de##div:has(>div>[data-hydration-component-name=VoucherWidgetToken])
+sueddeutsche.de##[class^=szde-homie-page-content__separator-item]:has(>section a[href^="https://szshop.sueddeutsche.de"])
+sueddeutsche.de##[class^=szde-homie-page-content__separator-item]:has(>[id^=end-of-article-joboffers])

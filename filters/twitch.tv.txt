@@ -1,2 +1,0 @@
-! block twitch chat everywhere
-||twitch.tv/embed/*/chat^

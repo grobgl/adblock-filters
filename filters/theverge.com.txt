@@ -3,3 +3,6 @@ theverge.com##.l-header+.l-hub-wrapper
 
 ! hide good deals
 theverge.com##.c-compact-river__entry:has(:scope > div > a[href^="https://www.theverge.com/good-deals"])
+www.theverge.com##.duet--content-cards--content-card:has-text
+theverge.com##+js(ra, href, a[rel^=sponsored])
+theverge.com##a[rel^=sponsored]:style(box-shadow: inherit !important)

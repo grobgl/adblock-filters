@@ -1,6 +1,0 @@
-! hide LZ-Plus stories
-facebook.com##div[data-testid=fbfeed_story]:has-text(LZ-Plus)
-
-! hide "x commented on" and "x replied to a comment on this" video and image stories (not articles)
-facebook.com##div[data-testid=fbfeed_story][data-story_category="2"]:has(a[rel=theater])
-facebook.com##div[data-testid=fbfeed_story][data-story_category="2"]:has(video)

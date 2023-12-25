@@ -1,2 +1,0 @@
-! block auto playing video in footer
-wired.com##.content-footer-related-video

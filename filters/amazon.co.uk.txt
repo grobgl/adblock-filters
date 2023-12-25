@@ -1,3 +1,0 @@
-! hide reviews
-amazon.co.uk###averageCustomerReviews_feature_div
-amazon.co.uk##.a-section:has(:scope > div > span > a > .a-icon-star-small)

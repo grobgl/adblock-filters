@@ -8,3 +8,4 @@ sueddeutsche.de##footer
 sueddeutsche.de##div:has(>.sz-teaserlist-element>.embed>.podigee-podcast-player)
 sueddeutsche.de##er-ad-slot
 sueddeutsche.de##div:has(>.teaserable-layout--teaser)
+sueddeutsche.de##a[href^="/thema/"]:style(text-decoration: inherit !important; color: inherit !important)

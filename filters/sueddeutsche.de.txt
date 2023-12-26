@@ -6,3 +6,5 @@ sueddeutsche.de##[class^=szde-homie-page-content__separator-item]:has(>section a
 sueddeutsche.de##[class^=szde-homie-page-content__separator-item]:has(>[id^=end-of-article-joboffers])
 sueddeutsche.de##footer
 sueddeutsche.de##div:has(>.sz-teaserlist-element>.embed>.podigee-podcast-player)
+sueddeutsche.de##er-ad-slot
+sueddeutsche.de##div:has(>.teaserable-layout--teaser)

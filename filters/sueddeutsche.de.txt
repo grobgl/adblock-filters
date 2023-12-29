@@ -11,3 +11,4 @@ sueddeutsche.de##div:has(>.teaserable-layout--teaser)
 sueddeutsche.de##a[href^="/thema/"]:style(text-decoration: inherit !important; color: inherit !important)
 sueddeutsche.de##div:has(>[data-hydration-component-name=Toolbar])
 sueddeutsche.de##div:has(>div>h2:has-text(Meine Lokalteile))
+sueddeutsche.de###ma-bo-container

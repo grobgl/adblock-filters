@@ -12,3 +12,4 @@ sueddeutsche.de##a[href^="/thema/"]:style(text-decoration: inherit !important; c
 sueddeutsche.de##div:has(>[data-hydration-component-name=Toolbar])
 sueddeutsche.de##div:has(>div>h2:has-text(Meine Lokalteile))
 sueddeutsche.de###ma-bo-container
+sueddeutsche.de##div:has(>[data-hydration-component-name=FeedbackViewToken])

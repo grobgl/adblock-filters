@@ -1,4 +1,5 @@
 sueddeutsche.de##[data-manual=teaser-group]:has(>[data-iqadtile-wrapper])
+sueddeutsche.de##[data-manual=teaser-group]:has(> div > .iqdcontainer)
 sueddeutsche.de###iqd_mainAd
 sueddeutsche.de##[data-iqadtile-wrapper]
 sueddeutsche.de##div:has(>div>[data-hydration-component-name=VoucherWidgetToken])

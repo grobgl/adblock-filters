@@ -120,3 +120,5 @@ www.zeit.de##[data-render="2023-zg-the-world-talks-index"]
 www.zeit.de##div:has(>aside.verbrechen-signup-wrapper)
 www.zeit.de##div:has(> .zoner-wjw-speech-wrapper)
 www.zeit.de##div:has(>.zoner-gdas-einschuss-banner)
+
+zeit.de##article:has(>a[title^=Verlagsangebot])

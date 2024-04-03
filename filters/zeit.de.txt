@@ -124,3 +124,4 @@ www.zeit.de##div:has(>.zoner-gdas-einschuss-banner)
 zeit.de##article:has(>a[title^=Verlagsangebot])
 zeit.de##.cp-region:has(> [data-ct-context=headed-spiele])
 zeit.de##.iqdcontainer
+zeit.de##div:has(>.zoner-pland-survey)

@@ -100,7 +100,6 @@ zeit.de##.cp-region:has(:scope > .cp-area > .joblisting)
 ||zeit.de/json/defendconfig/config.json^
 www.zeit.de##div.ad-container
 www.zeit.de##div.ad-container[data-type=mobile]
-www.zeit.de##.article__item--marginalia
 www.zeit.de##.zplus-badge
 www.zeit.de##.no-print
 www.zeit.de##div.ad-container

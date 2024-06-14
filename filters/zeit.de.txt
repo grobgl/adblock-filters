@@ -126,3 +126,4 @@ zeit.de##article:has(>a[title^=Anzeige])
 zeit.de##.cp-region:has(> [data-ct-context=headed-spiele])
 zeit.de##.iqdcontainer
 zeit.de##div:has(>.zoner-pland-survey)
+zeit.de##aside[aria-label="Z+: Exklusiv für Abonnenten"]

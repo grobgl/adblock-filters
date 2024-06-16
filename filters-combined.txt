@@ -1,6 +1,7 @@
 !#include filters/bloomberg.com.txt
 !#include filters/general.txt
 !#include filters/getpocket.com.txt
+!#include filters/kicker.de.txt
 !#include filters/kicktipp.de.txt
 !#include filters/newyorker.com.txt
 !#include filters/nytimes.com.txt

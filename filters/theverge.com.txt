@@ -6,3 +6,4 @@ theverge.com##.c-compact-river__entry:has(:scope > div > a[href^="https://www.th
 www.theverge.com##.duet--content-cards--content-card:has-text
 theverge.com##+js(ra, href, a[rel^=sponsored])
 theverge.com##a[rel^=sponsored]:style(box-shadow: inherit !important)
+theverge.com##.duet--content-cards--content-card:has(a[href="/good-deals"])

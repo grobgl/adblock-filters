@@ -9,4 +9,5 @@
 !#include filters/sueddeutsche.de.txt
 !#include filters/theguardian.com.txt
 !#include filters/theverge.com.txt
+!#include filters/wired.com.txt
 !#include filters/zeit.de.txt

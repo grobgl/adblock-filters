@@ -1,0 +1,1 @@
+wired.com##div[class^=Container]:has(>figure>figure.cne-video-embed)

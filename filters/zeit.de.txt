@@ -130,3 +130,5 @@ zeit.de##aside[aria-label="Z+: Exklusiv für Abonnenten"]
 zeit.de##.cp-region:has(>[data-ct-context=headed-kurz_und_knapp])
 zeit.de##.zoner-pland-top3
 zeit.de##[data-render="2024-plan-d-standalone"]
+zeit.de##.storifyme-carousel-container
+zeit.de##.headed-readmore:has(a[href="https://www.zeit.de/serie/plan-d"])

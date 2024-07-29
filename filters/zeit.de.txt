@@ -120,7 +120,7 @@ www.zeit.de##div:has(>aside.verbrechen-signup-wrapper)
 www.zeit.de##div:has(> .zoner-wjw-speech-wrapper)
 www.zeit.de##div:has(>.zoner-gdas-einschuss-banner)
 zeit.de##div:has(>.zoner-z2x24-einschuss-banner)
-
+zeit.de##.cp-area:has(>.zoner-olympics-overview)
 zeit.de##article:has(>a[title^=Verlagsangebot])
 zeit.de##article:has(>a[title^=Anzeige])
 zeit.de##.cp-region:has(> [data-ct-context=headed-spiele])

@@ -15,3 +15,4 @@ www.theguardian.com##section:has(>div>div>div>a[href="https://www.theguardian.co
 www.theguardian.com##section>div>ul>li:has(>div>div>div>div>footer>div>a[data-sponsor])
 www.theguardian.com##div:has(>div>section#documentaries)
 www.theguardian.com##.charity-appeal-wrapper
+www.theguardian.com###charity-appeal

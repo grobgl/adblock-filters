@@ -134,3 +134,4 @@ zeit.de##.storifyme-carousel-container
 zeit.de##.headed-readmore:has(a[href="https://www.zeit.de/serie/plan-d"])
 zeit.de##.cp-region:has(>div>.zoner-pland-dash)
 zeit.de##.cp-region:has(>.cp-area>.slider-wrapper [href^="https://www.zeit.de/z2x/"])
+zeit.de##.zoner-injection-AT

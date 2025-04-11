@@ -16,3 +16,4 @@ www.theguardian.com##section>div>ul>li:has(>div>div>div>div>footer>div>a[data-sp
 www.theguardian.com##div:has(>div>section#documentaries)
 www.theguardian.com##.charity-appeal-wrapper
 www.theguardian.com###charity-appeal
+theguardian.com###feast-thrasher

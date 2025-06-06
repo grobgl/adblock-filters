@@ -17,3 +17,4 @@ www.theguardian.com##div:has(>div>section#documentaries)
 www.theguardian.com##.charity-appeal-wrapper
 www.theguardian.com###charity-appeal
 theguardian.com###feast-thrasher
+theguardian.com##section[data-container-level=Primary] li:has-text(Paid for by)

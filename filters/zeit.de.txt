@@ -136,3 +136,6 @@ zeit.de##.cp-region:has(>div>.zoner-pland-dash)
 zeit.de##.cp-region:has(>.cp-area>.slider-wrapper [href^="https://www.zeit.de/z2x/"])
 zeit.de##.zoner-injection-AT
 zeit.de##.zoner-injection-Z2X
+zeit.de##.topicbox
+zeit.de##.zoner-injection-DUV
+zeit.de##.pland-problem

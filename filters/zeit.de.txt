@@ -140,3 +140,4 @@ zeit.de##.topicbox
 zeit.de##.zoner-injection-DUV
 zeit.de##.pland-problem
 zeit.de##.zoner-injection-PC
+zeit.de##.zoner-injection-NSDAP

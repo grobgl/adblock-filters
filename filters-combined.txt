@@ -7,6 +7,7 @@
 !#include filters/nytimes.com.txt
 !#include filters/spiegel.de.txt
 !#include filters/sueddeutsche.de.txt
+!#include filters/techcrunch.com.txt
 !#include filters/theguardian.com.txt
 !#include filters/theverge.com.txt
 !#include filters/wired.com.txt

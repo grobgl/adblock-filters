@@ -1,0 +1,6 @@
+! TechCrunch: stop the autoplaying JW Player video
+||content.jwplatform.com/libraries/$script,domain=techcrunch.com
+||ssl.p.jwpcdn.com^$script,domain=techcrunch.com
+||connatix.com^$third-party,domain=techcrunch.com
+techcrunch.com##.wp-block-techcrunch-jw-player-embed
+techcrunch.com##.jw-player-inline-promo
